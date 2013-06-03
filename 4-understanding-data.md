@@ -2,7 +2,7 @@
 
 Dejme tomu, že nějaká data máte. Co s nimi? Co hledat, jaké nástroje použít? Následující kapitola vám pro začátek nabídne několik tipů pro zlepšení vaší datové gramotnosti a práci s čísly a statistikami. Dále se dozvíte, na co dávat pozor při práci s neučesanými, nepřesnými a často i nedokumentovanými databázemi, naučíte se z dat vytáhnout příběh, seznámíte se s oblíbenými nástroji datových novinářů a ukážeme vám, jak za pomoci vizualizace získat nový pohled na téma, které vás zajímá.
 
-## Datová gramotnost ve třech jednoduchých krocích
+## Datová gramotnost ve třech krátkých krocích
 
 Podobně jako slovo *gramotnost* označuje „schopnost získat a kriticky posoudit psané informace a vyjadřovat se srozumitelně v psaném projevu“, spojení *datová gramotnost* označuje schopnost získávat znalosti, kriticky uvažovat a srozumitelně se vyjadřovat prostřednictvím dat. Patří sem nejen jistý pojem o statistice, ale také schopnost práce s velkými objemy dat a představa o tom, jak vznikají, jak je navzájem propojit a jak je interpretovat.
 
@@ -96,3 +96,33 @@ Ve většině západních zemí je čaj nápojem pro vyšší třídy, které si
 Výpočty korelací a chyb jsou v čajových studiích jistě správně, tedy aspoň většinou. Ale pokud vědci neberou v úvahu další souvislosti, například korelaci pití čaje a sportování, výpovědní hodnota jejich výsledků je mizivá.
 
 Z pozice novináře nemá příliš smysl zpochybňovat číselné výsledky studie, například velikost vzorku, ledaže byste měli vážné pochyby. Vcelku snadno ale můžete zjistit, jestli autoři studie nezapomněli na nějaké zásadní relevantní informace.
+
+## Několik tipů pro práci s čísly
+
+### Užívejte si
+
+Čísla se občas tváří nepřístupně, ale když se jimi necháte zastrašit, nikam se nedostanete. Nebojte se s nimi pohrát, prozkoumat je do hloubky. Často vás pak překvapí, jak snadno z nich dostanete nějaké tajemství nebo příběh. Prostě k nim přistupujte jako ke všem ostatním zdrojům, beze strachu a bez přehnaných očekávání. Berte práci s daty jako cvičení pro svou fantazii. Když narazíte na zjevně veliké nebo jinak nepatřičné číslo, zkuste vymyslet alternativní vysvětlení, které by mohlo lépe odpovídat datům, a ověřte si ho na dalších podkladech.
+
+### Skepse ano, cynismus ne
+
+K datům přistupujte skepticky, ne cynicky. Zdravá nedůvěra je dobrá, cynismus znamená rozhodit rukama a vzdát se. Jestli vám datová novinařina připadá jako dobrý nápad (a jinak byste tenhle text nečetli), musíte přistoupit na to, že data jsou něco mnohem víc než příslovečné *lži a zatracené lži* nebo pouhý odrazový můstek k chytlavým a zavádějícím titulkům. Správně zpracovaná data jsou zásadní zdroj informací. Nesmíme být ani cyničtí, ani naivní, ale pozorní.
+
+### Nejdřív data, potom závěry
+
+Když vám řeknu, že se během hospodářské recese víc pije, usoudíte, že je to všeobecnou depresí. Když vám řeknu, že se během recese pije méně, odpovíte mi, že jsou všichni bez peněz. Jinými slovy: ať už data tvrdí cokoliv, vy máte předem připravenou interpretaci, že jde všechno od desíti k pěti. Když se pije víc, je to špatně. Když se pije méně, je to špatně. Pokud máte pracovat s daty, musíte je nechat promluvit ještě předtím, než je převálcujete vlastními náladami, názory a hypotézami. V dnešní době je k dispozici tolik dat, že se při troše snahy dá potvrdit prakticky cokoliv. Datová žurnalistika podle mého názoru nepřináší žádnou podstatnou hodnotu, pokud ji neděláte s otevřenou hlavou. Pokud má být objektivní, musíte se o to postarat vy. Čísla nejsou objektivní sama od sebe.
+
+### Nejistota není sprosté slovo
+
+Zvykli jsme si čísla spojovat s autoritou a jistotou. Přitom se ale běžně stává, že naše nejlepší odpověď zní „nevím“. Nebo je tak nepřesná, že bychom se s ní radši vůbec neukazovali na veřejnosti. Takové věci je potřeba říkat nahlas. Možná vám to připadne jako dobrý způsob, jak torpédovat svůj vlastní článek. Já bych naopak řekl, že je to dobrý způsob, jak přijít na nové otázky. Často se také stává, že data jdou vyložit dvěma různými legitimními způsoby. Čísla nejsou nutně černobílá.
+
+### Psaní je příběh sám o sobě
+
+Příběh o vašem pátrání, o postupu od jednoho důkazu ke druhému, může posloužit jako skvělá kostra článku. Dvojnásob to platí v datové žurnalistice, kde si jen zřídka vystačíte s jedním číslem. Nové zdroje přináší nové úhly pohledu, nové nápady, lepší celkový obrázek. Říkám si, jestli jsme se příliš nezahleděli do vlastní autority – jestli o něco nepřicházíme, když chceme lidem naservírovat až hotovou odpověď.
+
+### Kontext
+
+Nejlepší otázky jsou ty nejstarší: Je tohle opravdu velké číslo? Kde jsme ho vzali? Opravdu má takovou váhu? Obecně jde o to, abyste se naučili vnímat data jako celek, nepřehlíželi pro samé stromy les, stručně řečeno *vnímali kontext*.
+
+## Základní kroky v práci s daty
+
+TODO: uvidíme, jestli chceme. Podle rozsahu.
