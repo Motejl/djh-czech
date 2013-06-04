@@ -1,6 +1,4 @@
-# Rozumíme datům
-
-Dejme tomu, že nějaká data máte. Co s nimi? Co hledat, jaké nástroje použít? Následující kapitola vám pro začátek nabídne několik tipů pro zlepšení vaší datové gramotnosti a práci s čísly a statistikami. Dále se dozvíte, na co dávat pozor při práci s neučesanými, nepřesnými a často i nedokumentovanými databázemi, naučíte se z dat vytáhnout příběh, seznámíte se s oblíbenými nástroji datových novinářů a ukážeme vám, jak za pomoci vizualizace získat nový pohled na téma, které vás zajímá.
+# Příručka datové žurnalistiky
 
 ## Datová gramotnost ve třech krátkých krocích
 
@@ -18,11 +16,11 @@ Zároveň ale novinář k práci s daty nepotřebuje titul z matematiky. I pár
 
 I bez větších znalostí matematiky nebo statistiky můžete udělat krok k lepší datové žurnalistice, stačí si položit následující tři jednoduché otázky.
 
-### Odkud se data vzala?
+### 1: Odkud se data vzala?
 
 #### Fantastický růst HDP
 
-Když chcete někoho omráčit, nejlépe se to dělá daty, která si sami vymyslíte. Možná je to evidentní, ale kašírovat se dají i tak diskutované údaje, jakým je například HDP. Někdejší britský velvyslanec Craig Murray ve své knize [Murder in Samarkand][3] popisuje údaje o HDP Uzbekistánu, které vznikají na základě intenzivního vyjednávání místní vlády s mezinárodními organizacemi. Jinými slovy: nemají nic společného s místní ekonomikou.
+Když chcete někoho omráčit, nejlépe se to dělá daty, která jste si sami vymysleli. Možná je to evidentní, ale kašírovat se dají i tak diskutované údaje, jakým je například HDP. Někdejší britský velvyslanec Craig Murray ve své knize [Murder in Samarkand][3] popisuje údaje o HDP Uzbekistánu, které vznikají na základě intenzivního vyjednávání místní vlády s mezinárodními organizacemi. Jinými slovy: nemají nic společného s místní ekonomikou.
 
 [3]: http://www.amazon.com/Murder-Samarkand-Ambassadors-Controversial-Defiance/dp/1845962214
 
@@ -47,7 +45,7 @@ Existují i další testy, které vám pomohou lépe odhadnout důvěryhodnost d
 
 [6]: http://cs.wikipedia.org/wiki/Benfordův_zákon
 
-### Co přesně data říkají?
+### 2: Co přesně data říkají?
 
 #### Noční práce zdvojnásobuje riziko roztroušené sklerózy
 
@@ -63,17 +61,17 @@ Výše uvedený titulek vypadá hrozivě. A je naprosto pravdivý. Mezi půl mil
 
 [8]: http://epp.eurostat.ec.europa.eu/portal/page/portal/statistics/search_database
 
-Kdykoliv pracujete s průměrem, ujasněte si, z čeho se počítá. Je referenční populace rozdělená rovnoměrně? Díky nerovnoměrnému rozložení například většina lidí řídí nadprůměrně dobře. Mnozí řidiči se celý život obejdou bez nehody, případně bourají jen jednou. Naproti tomu menší počet nezodpovědných řidičů bourá často, čímž tlačí aritmetický průměr nehodovosti mnohem výš, než by běžný řidič ze své zkušenosti čekal. Totéž platí o rozdělení příjmů: většina lidí má podprůměrný plat.[^1]
+Kdykoliv pracujete s průměrem, ujasněte si, z čeho se počítá. Je referenční populace rozdělená rovnoměrně? Díky nerovnoměrnému rozložení například většina lidí nadprůměrně dobře řídí auto. Mnozí řidiči se celý život obejdou bez nehody, případně bourají jen jednou. Naproti tomu menší počet nezodpovědných řidičů bourá často, čímž tlačí aritmetický průměr nehodovosti mnohem výš, než by běžný řidič ze své zkušenosti čekal. Totéž platí o rozdělení příjmů: většina lidí má podprůměrný plat.[^1]
 
 [^1]: A nadprůměrný počet končetin. (pozn. překl.)
 
 #### Co můžete udělat
 
-Vždy berte v úvahu rozložení ukazatele a jeho relativní četnost[^2]. Zkontrolujte si průměr, medián i modus (nejčastěji zastoupenou hodnotu), uděláte si o datech lepší představu. Uvědomte si kontext, v jakých řádech se pohybujete, viz příklad s roztroušenou sklerózou. A na závěr drobný tip: konkrétní příklady poměrů („jeden ze sta“) bývají pro čtenáře výrazně srozumitelnější než procenta (1 %).
+Vždy berte v úvahu rozložení ukazatele a jeho relativní četnost[^2]. Zkontrolujte si průměr, medián i modus (nejčastěji zastoupenou hodnotu), uděláte si o datech lepší představu. Uvědomte si kontext, v jakých řádech se pohybujete – viz příklad s roztroušenou sklerózou. A na závěr drobný tip: konkrétní příklady poměrů („jeden ze sta“) bývají pro čtenáře výrazně srozumitelnější než procenta (1 %).
 
 [^2]: *base rate*, TODO.
 
-### Nakolik se na data můžete spolehnout?
+### 3: Jak jsou vaše data spolehlivá?
 
 #### Problém s velikostí vzorku
 
@@ -122,7 +120,3 @@ Příběh o vašem pátrání, o postupu od jednoho důkazu ke druhému, může 
 ### Kontext
 
 Nejlepší otázky jsou ty nejstarší: Je tohle opravdu velké číslo? Kde jsme ho vzali? Opravdu má takovou váhu? Obecně jde o to, abyste se naučili vnímat data jako celek, nepřehlíželi pro samé stromy les, stručně řečeno *vnímali kontext*.
-
-## Základní kroky v práci s daty
-
-TODO: uvidíme, jestli chceme. Podle rozsahu.
