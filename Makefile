@@ -1,6 +1,6 @@
 budget:
 	bin/budget-count.pl < budget.md
 djh.pdf: djh.md
-	pandoc -o $@ $<
+	pandoc --toc -o $@ $<
 clean:
 	rm -rf *.pdf

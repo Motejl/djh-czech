@@ -1,6 +1,4 @@
-# Příručka datové žurnalistiky
-
-## Datová gramotnost ve třech krátkých krocích
+# Datová gramotnost ve třech krátkých krocích
 
 Podobně jako slovo *gramotnost* označuje „schopnost získat a kriticky posoudit psané informace a vyjadřovat se srozumitelně v psaném projevu“, spojení *datová gramotnost* označuje schopnost získávat znalosti, kriticky uvažovat a srozumitelně se vyjadřovat prostřednictvím dat. Patří sem nejen jistý pojem o statistice, ale také schopnost práce s velkými objemy dat a představa o tom, jak vznikají, jak je navzájem propojit a jak je interpretovat.
 
@@ -16,9 +14,9 @@ Zároveň ale novinář k práci s daty nepotřebuje titul z matematiky. I pár
 
 I bez větších znalostí matematiky nebo statistiky můžete udělat krok k lepší datové žurnalistice, stačí si položit následující tři jednoduché otázky.
 
-### 1: Odkud se data vzala?
+## Odkud se data vzala?
 
-#### Fantastický růst HDP
+### Fantastický růst HDP
 
 Když chcete někoho omráčit, nejlépe se to dělá daty, která jste si sami vymysleli. Možná je to evidentní, ale kašírovat se dají i tak diskutované údaje, jakým je například HDP. Někdejší britský velvyslanec Craig Murray ve své knize [Murder in Samarkand][3] popisuje údaje o HDP Uzbekistánu, které vznikají na základě intenzivního vyjednávání místní vlády s mezinárodními organizacemi. Jinými slovy: nemají nic společného s místní ekonomikou.
 
@@ -26,7 +24,7 @@ Když chcete někoho omráčit, nejlépe se to dělá daty, která jste si sami 
 
 Vlády si HDP jakožto hlavní ukazatel výkonu ekonomiky hlídají kvůli dani z přidané hodnoty, která pro ně představuje hlavní zdroj příjmů. Když vláda žije z jiných zdrojů než DPH, nebo když nezveřejňuje svůj rozpočet, nemá důvod sbírat podklady pro výpočet HDP a je pro ni jednodušší výsledné číslo prostě vymyslet.
 
-#### Věčně rostoucí křivka zločinu
+### Věčně rostoucí křivka zločinu
 
 „Zločinnost ve Španělsku vzrostla o tři procenta,“ [píše El País][4]. Brusel trpí kriminalitou nelegálních přistěhovalců a drogově závislých, [tvrdí RTL][5]. Podobné zprávy vycházející z policejních statistik jsou běžné, ale o násilí příliš nevypovídají.
 
@@ -35,7 +33,7 @@ Vlády si HDP jakožto hlavní ukazatel výkonu ekonomiky hlídají kvůli dani 
 
 Můžeme věřit tomu, že v rámci Evropské unie data nikdo záměrně nezkresluje. Ale policisté umí vyjít vstříc systému: Pokud je například jejich osobní hodnocení vázané na počet zásahů, mají motivaci hlásit co nejvíc jednoduchých případů nevyžadujících vyšetřování. Například kouření trávy. Tím se vysvětluje, proč ve Francii za posledních 15 let statisticky vzato čtyřikrát přibylo trestných činů spojených s drogami, ačkoliv jejich spotřeba zůstává zhruba konstantní.
 
-#### Co můžete udělat
+### Co můžete udělat
 
 Kdykoliv pochybujete o důvěryhodnosti svých dat, ověřte si je, jako kdyby šlo o citát nějakého politika. V příkladu s Uzbekistánem stačí zavolat někomu, kdo v zemi delší dobu žije. („Máš dojem, že je země třikrát bohatší než v roce 1995, jak tvrdí oficiální čísla?“)
 
@@ -45,9 +43,9 @@ Existují i další testy, které vám pomohou lépe odhadnout důvěryhodnost d
 
 [6]: http://cs.wikipedia.org/wiki/Benfordův_zákon
 
-### 2: Co přesně data říkají?
+## Co přesně data říkají?
 
-#### Noční práce zdvojnásobuje riziko roztroušené sklerózy
+### Noční práce zdvojnásobuje riziko roztroušené sklerózy
 
 Každý duševně zdravý Němec by po přečtení [tohoto titulku][7] jistě začal odmítat noční směny. Z článku ale nevyplývá, jak velké je vlastně výsledné riziko.
 
@@ -55,25 +53,23 @@ Každý duševně zdravý Němec by po přečtení [tohoto titulku][7] jistě za
 
 Vezměte si tisícovku Němců. Roztroušená skleróza se v průběhu života objeví u jednoho z nich. Kdyby všech tisíc pracovalo v noci, počet nemocných by poskočil na dva. Noční směny tedy představují dodatečné riziko jedna ku tisíci, nikoliv sto procent. Taková informace je pro praktické rozhodování o konkrétní pracovní nabídce jistě mnohem užitečnější.
 
-#### Mezi každými 15 Evropany je průměrně jeden negramotný
+### Mezi každými 15 Evropany je průměrně jeden negramotný
 
 Výše uvedený titulek vypadá hrozivě. A je naprosto pravdivý. Mezi půl miliardou Evropanů je 36 miliónů těch, kteří nejspíš neumí číst. A [podle Eurostatu][8] také 36 miliónů těch, kterým ještě nebylo sedm let.
 
 [8]: http://epp.eurostat.ec.europa.eu/portal/page/portal/statistics/search_database
 
-Kdykoliv pracujete s průměrem, ujasněte si, z čeho se počítá. Je referenční populace rozdělená rovnoměrně? Díky nerovnoměrnému rozložení například většina lidí nadprůměrně dobře řídí auto. Mnozí řidiči se celý život obejdou bez nehody, případně bourají jen jednou. Naproti tomu menší počet nezodpovědných řidičů bourá často, čímž tlačí aritmetický průměr nehodovosti mnohem výš, než by běžný řidič ze své zkušenosti čekal. Totéž platí o rozdělení příjmů: většina lidí má podprůměrný plat.[^1]
+Kdykoliv pracujete s průměrem, ujasněte si, z čeho se počítá. Je referenční populace rozdělená rovnoměrně? Díky nerovnoměrnému rozložení například většina lidí nadprůměrně dobře řídí auto. Mnozí řidiči se celý život obejdou bez nehody, případně bourají jen jednou. Naproti tomu menší počet nezodpovědných řidičů bourá často, čímž tlačí aritmetický průměr nehodovosti mnohem výš, než by běžný řidič ze své zkušenosti čekal. Totéž platí o rozdělení příjmů: většina lidí má podprůměrný plat a nadprůměrný počet končetin.
 
-[^1]: A nadprůměrný počet končetin. (pozn. překl.)
-
-#### Co můžete udělat
+### Co můžete udělat
 
 Vždy berte v úvahu rozložení ukazatele a jeho relativní četnost[^2]. Zkontrolujte si průměr, medián i modus (nejčastěji zastoupenou hodnotu), uděláte si o datech lepší představu. Uvědomte si kontext, v jakých řádech se pohybujete – viz příklad s roztroušenou sklerózou. A na závěr drobný tip: konkrétní příklady poměrů („jeden ze sta“) bývají pro čtenáře výrazně srozumitelnější než procenta (1 %).
 
 [^2]: *base rate*, TODO.
 
-### 3: Jak jsou vaše data spolehlivá?
+## Jak spolehlivá jsou data?
 
-#### Problém s velikostí vzorku
+### Problematická velikost vzorku
 
 „80 % nespokojených se soudním systémem,“ [píše španělský list Diaro de Navarra][9]. Jak ale může zobecnit výsledky od osmi set respondentů na 46 miliónů Španělů? To je ukázkové mlácení prázdné slámy. Nebo ne?
 
@@ -81,7 +77,7 @@ Vždy berte v úvahu rozložení ukazatele a jeho relativní četnost[^2]. Zkont
 
 Při průzkumu velké skupiny lidí (řekněme přes několik tisíc) jen zřídka potřebujete více než tisíc respondentů, abyste dostáhli chyby pod 3 %. Jinými slovy, kdybyste zopakovali průzkum s úplně jiným vzorkem, v devíti případech z deseti byste se dostali nejvýš na tři procenta daleko od výsledků z prvního pokusu. Statistika je mocná zbraň a velikost vzorku bývá u špatných studií na vině jen zřídka.
 
-#### Pití čaje snižuje riziko infarktu
+### Pití čaje snižuje riziko infarktu
 
 Články o zdravotních výhodách pití čaje jsou k vidění běžně. Výjimkou není ani tento [krátký článek z Die Welt][10], ve kterém se dočtete, že čaj snižuje riziko infarktu myokardu. Zdravotním účinkům čaje se věnuje i řada seriózních studií, ale mnohdy se zapomíná započítat vliv životního stylu, například jídelníček, povolání nebo sportovní aktivity.
 
@@ -89,9 +85,9 @@ Při průzkumu velké skupiny lidí (řekněme přes několik tisíc) jen zříd
 
 Ve většině západních zemí je čaj nápojem pro vyšší třídy, které si hlídají zdravý životní styl. Pokud tedy čajové studie nezapočítají vliv životního stylu, neříkají nám o moc víc, než že bohatí lidé jsou zdravější (a nejspíš mají rádi čaj).
 
-#### Co můžete udělat
+### Co můžete udělat
 
-Výpočty korelací a chyb jsou v čajových studiích jistě správně, tedy aspoň většinou. Ale pokud vědci neberou v úvahu další souvislosti, například korelaci pití čaje a sportování, výpovědní hodnota jejich výsledků je mizivá.
+Výpočty jsou v čajových studiích jistě správně, tedy aspoň většinou. Ale pokud vědci neberou v úvahu další souvislosti, například korelaci pití čaje a sportování, výpovědní hodnota jejich výsledků je mizivá.
 
 Z pozice novináře nemá příliš smysl zpochybňovat číselné výsledky studie, například velikost vzorku, ledaže byste měli vážné pochyby. Vcelku snadno ale můžete zjistit, jestli autoři studie nezapomněli na nějaké zásadní relevantní informace.
 
@@ -103,7 +99,7 @@ Z pozice novináře nemá příliš smysl zpochybňovat číselné výsledky stu
 
 ### Skepse ano, cynismus ne
 
-K datům přistupujte skepticky, ne cynicky. Zdravá nedůvěra je dobrá, cynismus znamená rozhodit rukama a vzdát se. Jestli vám datová novinařina připadá jako dobrý nápad (a jinak byste tenhle text nečetli), musíte přistoupit na to, že data jsou něco mnohem víc než příslovečné *lži a zatracené lži* nebo pouhý odrazový můstek k chytlavým a zavádějícím titulkům. Správně zpracovaná data jsou zásadní zdroj informací. Nesmíme být ani cyničtí, ani naivní, ale pozorní.
+K datům přistupujte skepticky, ne cynicky. Zdravá nedůvěra je dobrá, cynismus znamená rozhodit rukama a vzdát se. Jestli vám datová novinařina připadá jako dobrý nápad (a jinak byste tenhle text nečetli), musíte přistoupit na to, že data jsou něco mnohem víc než příslovečné *lži a zatracené lži* nebo pouhý odrazový můstek k atraktivním a zavádějícím titulkům. Správně zpracovaná data jsou zásadní zdroj informací. Nesmíme být ani cyničtí, ani naivní, ale pozorní.
 
 ### Nejdřív data, potom závěry
 
@@ -120,3 +116,61 @@ Příběh o vašem pátrání, o postupu od jednoho důkazu ke druhému, může 
 ### Kontext
 
 Nejlepší otázky jsou ty nejstarší: Je tohle opravdu velké číslo? Kde jsme ho vzali? Opravdu má takovou váhu? Obecně jde o to, abyste se naučili vnímat data jako celek, nepřehlíželi pro samé stromy les, stručně řečeno *vnímali kontext*.
+
+# Vizualizace jako tažný kůň datové žurnalistiky
+
+Ještě než data začnete vynášet do grafů a map, zamyslete se na moment nad tím, jakou roli vlastně hraje interaktivní a statická grafika ve vaší práci.
+
+Při práci na podkladech vizualizace pomáhá hledat témata a otázky pro zbytek článku, upozorňuje na anomálie (ať už jde o chyby v datech nebo náměty na dobrý článek), pomáhá hledat typické příklady nebo ukazuje díry ve vašich zdrojích.
+
+Uplatní se samozřejmě ale i ve výsledném článku, kde dokáže přesvědčivě ilustrovat pointu nebo zbavit text nadbytečných technických detailů. Navíc přináší do vaší práce větší transparentnost, zvlášť pokud jde o interaktivní vizualizace, ve kterých se čtenáři mohou volně pohybovat.
+
+Z toho plyne, že byste s vizualizacemi měli začít záhy a průběžně je aktualizovat. Neberte vizualizaci jako samostatný krok, na který přijde čas, až bude článek z větší části hotový. Používejte vizualizaci jako další vodítko pro svou práci.
+
+Pro začátek občas stačí jen vizuálně ztvárnit poznámky, které už máte. Viz obrázek 1, který vyšel ve Washington Postu v roce 2006.
+
+![Vývoj zemědělských dotací v čase; Washington Post](figures/farm-subsidies.png)
+
+Graf ukazuje podíl dotací na zemědělských příjmech a klíčové události za posledních 45 let. Vznikal několik měsíců. Dalo nám velkou práci najít data vycházející z podobných definic, data s podobným významem, abychom je mohli srovnat za celé sledované období. Energie vložená do analýzy jednotlivých špiček a propadů nám ale posléze pomáhala udržet kontext během práce na zbytku článku. Když jsme se dostali k psaní, velký kus práce už jsme měli hotový.
+
+## Několik tipů pro vizualizaci dat
+
+### Rychlá orientace ve velké databázi
+
+Tuto techniku jsem použil ve Washington Postu, když jsme dostali tip, že vláda George W. Bushe rozdávala granty na základě politické objednávky. Většina grantových programů se uděluje na základě výpočtu, jiné už zase běží řadu let, takže jsme měli k dispozici asi patnáct set různých zdrojů dat a byli jsme zvědaví, jestli v nich najdeme nějakou anomálii.
+
+![Grantové výdaje podle volebních let; Washington Post](figures/hhs-grants.png)
+
+Pro každý program jsem udělal samostatný graf, ve kterém červené tečky označují roky prezidentských voleb a zelené tečky roky kongresové. A výsledek: ano, šest měsíců před volbami se v několika programech objevil prudký nárůst (viz červené tečky s číslem), ale nešlo o volební roky George W. Bushe. Skoky se objevily před volbami v roce 2000, kdy v Bílém domě úřadoval Bill Clinton a na prezidenta kandidoval jeho viceprezident Al Gore.
+
+Na sérii malých grafů je tento vývoj vidět mnohem lépe než v tabulce plné čísel, a díky interaktivnímu formuláři jsme si mohli prohlédnout různé typy grantů, regionů i vládních úřadů. Skupinka malých statických grafů je velmi praktický nástroj, občas i lepší než interaktivní grafika.
+
+Tento konkrétní příklad vznikl v programovacím jazyce PHP, ale dnes byste mnohem lépe pořídili v Excelu s takzvanými *sparkline grafy*. Jejich vynálezce, vizualizační odborník Edward Tufte, jim říká „krátká, hutná grafická slova“. Jsou ideální pro rychlou a zběžnou orientaci ve velkých databázích a dnes jsou k vidění všude, od burzovních přehledů po bilance vzájemných sportovních utkání.
+
+### Projděte si data ze všech úhlů
+
+Při analýze dat neexistuje žádná špatná perspektiva. Vyzkoušejte každý úhel pohledu, který vás napadne. Když píšete o zločinu, může se vám hodit graf meziročního vývoje násilných zločinů, další pohled nabízí procentuální změna nebo srovnání s jinými městy. Vyzkoušejte absolutní čísla, procenta, indexy.
+
+Prohlédněte si data v různých měřítcích. Zkuste si umístit osu *x* tradičně na nulu, pak ji posuňte jinam. Změnilo se něco? Pokud mají data nepraktické rozložení, můžete je logaritmovat nebo odmocnit.
+
+Každá taková změna vám pomáhá vidět data v novém světle. Jakmile vám přestanou říkat něco nového, máte hotovo.
+
+### Ne každá chyba je fatální
+
+Když si data prohlédnete ze všech úhlů, určitě narazíte na čísla, která nehrají. Možná jim vůbec nerozumíte, možná se výrazně liší od zbytku souboru, možná jde o překlepy, možná neodpovídají trendům.
+
+Pokud na takových datech hodláte postavit článek nebo je publikovat, musíte se s anomáliemi nějak vypořádat. Výjimka v datech může být skvělý výchozí bod pro zajímavý článek, nebo obyčejná chyba. Zajímavá výzva pro zaběhnuté názory, nebo pouhé nedorozumění.
+
+Pokud data pochází od vlády, chyby v nich bývají celkem běžně. Stejně tak je velmi jednoduché špatně pochopit nějaký úřednický výraz.
+
+V první řadě zkuste zkontrolovat svou vlastní práci. Přečetli jste si dokumentaci, varovala vás před něčím? Objevuje se problém i v původní, nezpracované verzi dat? Pokud na vaší straně vypadá všechno v pořádku, je čas zvednout telefon. Když data chcete použít, nějak se s chybou vypořádat musíte, tak proč ne hned.
+
+Na druhou stranu není každá chyba zásadní. Například v záznamech o financování volební kampaně se běžně stává, že se mezi stovkami tisíc položek najde několik set neexistujících PSČ. Pokud všechny takové záznamy nepatří do jednoho regionu nebo jednomu kandidátovi, nemá smysl si s občasnou chybou dělat hlavu.
+
+Základní otázka zní, jestli chyby v datech zásadně zkreslují dojem, který z nich získají vaši čtenáři.
+
+### Netrapte se nepodstatnými nepřesnostmi
+
+Netrapte se nepřesnostmi, dokud na nich opravdu nezáleží. Vaše experimentální průběžné vizualizace sice musí být v principu správně, ale nesejde na tom, jestli v nich všude používáte jednotné zaokrouhlení, jestli vám všechna procenta správně vychází přesně do stovky, nebo jestli vám mezi daty za dvacet let nechybí jeden dva roky. Drobné nepřesnosti jsou přirozenou součástí experimentu. Důležité je zachytit větší trendy a vědět, co ještě potřebujete nasbírat a upřesnit před publikací.
+
+Můžete dokonce zkusit vypustit popisky a měřítko, podobně jako na výše uvedených grafech, a nerušeně se zabývat jen celkovým tvarem dat.
