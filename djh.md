@@ -127,11 +127,23 @@ Uplatní se samozřejmě ale i ve výsledném článku, kde dokáže přesvědč
 
 Z toho plyne, že byste s vizualizacemi měli začít záhy a průběžně je aktualizovat. Neberte vizualizaci jako samostatný krok, na který přijde čas, až bude článek z větší části hotový. Používejte vizualizaci jako další vodítko pro svou práci.
 
-Pro začátek občas stačí jen vizuálně ztvárnit poznámky, které už máte. Viz obrázek 1, který vyšel ve Washington Postu v roce 2006.
+Pro začátek občas stačí jen vizuálně ztvárnit poznámky, které už máte. Viz obrázek, který vyšel ve Washington Postu v roce 2006.
 
 ![Vývoj zemědělských dotací v čase; Washington Post](figures/farm-subsidies.png)
 
 Graf ukazuje podíl dotací na zemědělských příjmech a klíčové události za posledních 45 let. Vznikal několik měsíců. Dalo nám velkou práci najít data vycházející z podobných definic, data s podobným významem, abychom je mohli srovnat za celé sledované období. Energie vložená do analýzy jednotlivých špiček a propadů nám ale posléze pomáhala udržet kontext během práce na zbytku článku. Když jsme se dostali k psaní, velký kus práce už jsme měli hotový.
+
+## Různé grafy, různé příběhy
+
+V dnešním digitálním světě, kde už ani trojrozměrná virtuální realita není nic neobvyklého, máme sklon zapomínat, že jsme dlouhou dobu měli k dispozici jen inkoust a papír. Statický a plochý papír dnes považujeme za médium druhé kategorie, ale faktem je, že za stovky let psaní a tisku se nám podařilo shromáždit obrovský arzenál nástrojů pro reprezentaci dat na papíře. Interaktivní grafy, vizualizace dat a infografiky, které jsou dnes ohromně v kurzu, často ignorují užitečné historické zkušenosti. Je na nás, abychom tyto zkušenosti přenesli do nových médií.
+
+Některé z nejznámnějších diagramů a grafů vzešly z potřeby přehledně popsat složitá tabulková data. To bylo častým úkolem také Williama Playfaira, skotského polyglota žijícího na přelomu 18. a 19. století, který pro svět objevil řadu grafů používaných dodnes. Například ve své knize *Commercial and Political Atlas*, vydané roku 1786, představil klasický sloupcový graf, kterým nově a přehledně ilustroval skotský import a export.
+
+![Jeden z prvních sloupcových grafů; William Playfair](figures/playfair-barchart.png)
+
+Následovala kniha *Statistical Breviary*, kterou Playfair v roce 1801 popularizoval tolik obávaný kruhový diagram. Původním motivem pro zavádění nových diagramů a grafů byl obchod, ale s postupem času se objevovaly i další, z nichž některé přímo zachraňovaly životy. V roce 1854 John Snow vytvořil svou proslavenou mapu londýnské epidemie cholery, kde nad každou adresou s hlášeným výskytem nemoci nakreslil malý černý obdélník. Za krátký čas se černé značky jasně nakupily kolem problematické pumpy, která byla zdrojem nákazy, a problém byl vyřešen.
+
+![Cholerová mapa Londýna; John Snow](figures/cholera-map.jpg)
 
 ## Několik tipů pro vizualizaci dat
 
