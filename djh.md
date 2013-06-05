@@ -67,7 +67,7 @@ Vždy berte v úvahu rozložení ukazatele a jeho relativní četnost[^2]. Zkont
 
 [^2]: *base rate*, TODO.
 
-## Jak spolehlivá jsou data?
+## Jak spolehlivá jsou vaše data?
 
 ### Problematická velikost vzorku
 
@@ -91,29 +91,41 @@ Výpočty jsou v čajových studiích jistě správně, tedy aspoň většinou. 
 
 Z pozice novináře nemá příliš smysl zpochybňovat číselné výsledky studie, například velikost vzorku, ledaže byste měli vážné pochyby. Vcelku snadno ale můžete zjistit, jestli autoři studie nezapomněli na nějaké zásadní relevantní informace.
 
-## Několik tipů pro práci s čísly
+# Tipy pro práci s čísly
 
-### Užívejte si
+## Hledejte příběh
+
+Abyste přitáhli čtenáře, musíte je umět přetáhnout po hlavě nějakým zásadním titulkovým číslem, které je posadí do židle a donutí přečíst zbytek článku. Příkladem takového přístupu je projekt britské novinářské neziskovky Bureau of Investigative Journalism zaměřený na Evropskou komisi a její [systém finanční transparentnosti][sft]. Autoři v databázi systému hledali konkrétní klíčová slova jako *koktejl*, *golf* nebo *výjezdní*, aby zjistili, kolik komise utratila za příslušné položky. Výsledkem byla řada otázek a potenciálně zajímavých příběhů.
+
+[sft]: http://ec.europa.eu/beneficiaries/fts/index_en.htm
+
+Jen s klíčovými slovy si ale člověk nevystačí. Občas se musíte zamyslet nad tím, co vlastně hledáte. V rámci téhož projektu chtěli autoři zjistit, kolik komise utrácí za soukromá letadla. Klíčové spojení „soukromé letadlo“ ale v databázi pochopitelně chybělo, a tak bylo potřeba zjistit název konkrétního dopravce („Abelag“) a vypsat z databáze výdaje za jeho služby.
+
+Další snadný zdroj zajímavých informací získáte tím, že se v databázi budete snažit najít něco, co by v ní rozhodně být nemělo. Příkladem takového přístupu je společný projekt Financial Times a Bureau of Investigative Journalism zaměřený prozměnu na Strukturální fondy EU. Autoři projektu při prohledávání databáze vyšli přímo z pravidel Evropské komise, která říkají, jaký typ firem by ze strukturálních fondů žádné dotace dostávat neměl. Do této skupiny patří například výrobci tabáku, jenže v databázi fondů se přes názvy tabákových firem podařilo najít investici 1,5 miliónu Euro do německé továrny firmy British American Tobacco.
+
+Nikdy nevíte, co v databázi najdete; prostě to zkuste.
+
+## Užívejte si
 
 Čísla se občas tváří nepřístupně, ale když se jimi necháte zastrašit, nikam se nedostanete. Nebojte se s nimi pohrát, prozkoumat je do hloubky. Často vás pak překvapí, jak snadno z nich dostanete nějaké tajemství nebo příběh. Prostě k nim přistupujte jako ke všem ostatním zdrojům, beze strachu a bez přehnaných očekávání. Berte práci s daty jako cvičení pro svou fantazii. Když narazíte na zjevně veliké nebo jinak nepatřičné číslo, zkuste vymyslet alternativní vysvětlení, které by mohlo lépe odpovídat datům, a ověřte si ho na dalších podkladech.
 
-### Skepse ano, cynismus ne
+## Skepse ano, cynismus ne
 
 K datům přistupujte skepticky, ne cynicky. Zdravá nedůvěra je dobrá, cynismus znamená rozhodit rukama a vzdát se. Jestli vám datová novinařina připadá jako dobrý nápad (a jinak byste tenhle text nečetli), musíte přistoupit na to, že data jsou něco mnohem víc než příslovečné *lži a zatracené lži* nebo pouhý odrazový můstek k atraktivním a zavádějícím titulkům. Správně zpracovaná data jsou zásadní zdroj informací. Nesmíme být ani cyničtí, ani naivní, ale pozorní.
 
-### Nejdřív data, potom závěry
+## Nejdřív data, potom závěry
 
 Když vám řeknu, že se během hospodářské recese víc pije, usoudíte, že je to všeobecnou depresí. Když vám řeknu, že se během recese pije méně, odpovíte mi, že jsou všichni bez peněz. Jinými slovy: ať už data tvrdí cokoliv, vy máte předem připravenou interpretaci, že jde všechno od desíti k pěti. Když se pije víc, je to špatně. Když se pije méně, je to špatně. Pokud máte pracovat s daty, musíte je nechat promluvit ještě předtím, než je převálcujete vlastními náladami, názory a hypotézami. V dnešní době je k dispozici tolik dat, že se při troše snahy dá potvrdit prakticky cokoliv. Datová žurnalistika podle mého názoru nepřináší žádnou podstatnou hodnotu, pokud ji neděláte s otevřenou hlavou. Pokud má být objektivní, musíte se o to postarat vy. Čísla nejsou objektivní sama od sebe.
 
-### Nejistota není sprosté slovo
+## Nejistota není sprosté slovo
 
 Zvykli jsme si čísla spojovat s autoritou a jistotou. Přitom se ale běžně stává, že naše nejlepší odpověď zní „nevím“. Nebo je tak nepřesná, že bychom se s ní radši vůbec neukazovali na veřejnosti. Takové věci je potřeba říkat nahlas. Možná vám to připadne jako dobrý způsob, jak torpédovat svůj vlastní článek. Já bych naopak řekl, že je to dobrý způsob, jak přijít na nové otázky. Často se také stává, že data jdou vyložit dvěma různými legitimními způsoby. Čísla nejsou nutně černobílá.
 
-### Psaní je příběh sám o sobě
+## Psaní je příběh sám o sobě
 
 Příběh o vašem pátrání, o postupu od jednoho důkazu ke druhému, může posloužit jako skvělá kostra článku. Dvojnásob to platí v datové žurnalistice, kde si jen zřídka vystačíte s jedním číslem. Nové zdroje přináší nové úhly pohledu, nové nápady, lepší celkový obrázek. Říkám si, jestli jsme se příliš nezahleděli do vlastní autority – jestli o něco nepřicházíme, když chceme lidem naservírovat až hotovou odpověď.
 
-### Kontext
+## Kontext
 
 Nejlepší otázky jsou ty nejstarší: Je tohle opravdu velké číslo? Kde jsme ho vzali? Opravdu má takovou váhu? Obecně jde o to, abyste se naučili vnímat data jako celek, nepřehlíželi pro samé stromy les, stručně řečeno *vnímali kontext*.
 
@@ -177,9 +189,9 @@ Velice často se v žurnalistice používají mapy. Většinou nás zajímá sro
 
 A nezapomínejte, že vás nikdo nenutí v článku využít všechna dostupná data. Začněte v malém a přidávejte jen tehdy, když je to nevyhnutelně potřeba.
 
-## Několik tipů pro vizualizaci dat
+# Tipy pro vizualizaci dat
 
-### Rychlá orientace ve velké databázi
+## Rychlá orientace ve velké databázi
 
 Tuto techniku jsem použil ve Washington Postu, když jsme dostali tip, že vláda George W. Bushe rozdávala granty na základě politické objednávky. Většina grantových programů se uděluje na základě výpočtu, jiné už zase běží řadu let, takže jsme měli k dispozici asi patnáct set různých zdrojů dat a byli jsme zvědaví, jestli v nich najdeme nějakou anomálii.
 
@@ -191,7 +203,7 @@ Na sérii malých grafů je tento vývoj vidět mnohem lépe než v tabulce pln
 
 Tento konkrétní příklad vznikl v programovacím jazyce PHP, ale dnes byste mnohem lépe pořídili v Excelu s takzvanými *sparkline grafy*. Jejich vynálezce, vizualizační odborník Edward Tufte, jim říká „krátká, hutná grafická slova“. Jsou ideální pro rychlou a zběžnou orientaci ve velkých databázích a dnes jsou k vidění všude, od burzovních přehledů po bilance vzájemných sportovních utkání.
 
-### Projděte si data ze všech úhlů
+## Projděte si data ze všech úhlů
 
 Při analýze dat neexistuje žádná špatná perspektiva. Vyzkoušejte každý úhel pohledu, který vás napadne. Když píšete o zločinu, může se vám hodit graf meziročního vývoje násilných zločinů, další pohled nabízí procentuální změna nebo srovnání s jinými městy. Vyzkoušejte absolutní čísla, procenta, indexy.
 
@@ -199,7 +211,7 @@ Prohlédněte si data v různých měřítcích. Zkuste si umístit osu *x* tra
 
 Každá taková změna vám pomáhá vidět data v novém světle. Jakmile vám přestanou říkat něco nového, máte hotovo.
 
-### Ne každá chyba je fatální
+## Ne každá chyba je fatální
 
 Když si data prohlédnete ze všech úhlů, určitě narazíte na čísla, která nehrají. Možná jim vůbec nerozumíte, možná se výrazně liší od zbytku souboru, možná jde o překlepy, možná neodpovídají trendům.
 
@@ -213,7 +225,7 @@ Na druhou stranu není každá chyba zásadní. Například v záznamech o fina
 
 Základní otázka zní, jestli chyby v datech zásadně zkreslují dojem, který z nich získají vaši čtenáři.
 
-### Netrapte se nepodstatnými nepřesnostmi
+## Netrapte se nepřesnostmi, na kterých nezáleží
 
 Netrapte se nepřesnostmi, dokud na nich opravdu nezáleží. Vaše experimentální průběžné vizualizace sice musí být v principu správně, ale nesejde na tom, jestli v nich všude používáte jednotné zaokrouhlení, jestli vám všechna procenta správně vychází přesně do stovky, nebo jestli vám mezi daty za dvacet let nechybí jeden dva roky. Drobné nepřesnosti jsou přirozenou součástí experimentu. Důležité je zachytit větší trendy a vědět, co ještě potřebujete nasbírat a upřesnit před publikací.
 
