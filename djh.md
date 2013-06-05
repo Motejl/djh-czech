@@ -101,9 +101,19 @@ Abyste přitáhli čtenáře, musíte je umět přetáhnout po hlavě nějakým 
 
 Jen s klíčovými slovy si ale člověk nevystačí. Občas se musíte zamyslet nad tím, co vlastně hledáte. V rámci téhož projektu chtěli autoři zjistit, kolik komise utrácí za soukromá letadla. Klíčové spojení „soukromé letadlo“ ale v databázi pochopitelně chybělo, a tak bylo potřeba zjistit název konkrétního dopravce („Abelag“) a vypsat z databáze výdaje za jeho služby.
 
-Další snadný zdroj zajímavých informací získáte tím, že se v databázi budete snažit najít něco, co by v ní rozhodně být nemělo. Příkladem takového přístupu je společný projekt Financial Times a Bureau of Investigative Journalism zaměřený prozměnu na Strukturální fondy EU. Autoři projektu při prohledávání databáze vyšli přímo z pravidel Evropské komise, která říkají, jaký typ firem by ze strukturálních fondů žádné dotace dostávat neměl. Do této skupiny patří například výrobci tabáku, jenže v databázi fondů se přes názvy tabákových firem podařilo najít investici 1,5 miliónu Euro do německé továrny firmy British American Tobacco.
+Další snadný zdroj zajímavých informací získáte tím, že se v databázi budete snažit najít něco, co by v ní rozhodně být nemělo. Příkladem je společný projekt Financial Times a Bureau of Investigative Journalism zaměřený prozměnu na Strukturální fondy EU. Autoři projektu při prohledávání databáze vyšli přímo z pravidel Evropské komise, která říkají, jaký typ firem by ze strukturálních fondů žádné dotace dostávat neměl. Do této skupiny patří například výrobci tabáku, jenže v databázi fondů se přes názvy tabákových firem podařilo najít investici 1,5 miliónu Euro do německé továrny firmy British American Tobacco.
 
 Nikdy nevíte, co v databázi najdete; prostě to zkuste.
+
+## Kontext
+
+Nejlepší otázky jsou ty nejstarší: Je tohle opravdu velké číslo? Kde jsme ho vzali? Opravdu má takovou váhu? Obecně jde o to, abyste se naučili vnímat data jako celek, nepřehlíželi pro samé stromy les, stručně řečeno *vnímali kontext*.
+
+Pokud například místní úřady po celé republice loni utratily *x* miliónů za kancelářské sponky, je to hodně, nebo málo? K odpovědi potřebujete kontext, který se dá získat různě. Například zdůrazněním poměru („utratily za sponky dvě třetiny svého rozpočtu na kancelářské potřeby“), vnitřním srovnáním („utratily za sponky víc než za rozvoz jídel pro seniory“) nebo vnějším srovnáním („daly loni za sponky dvakrát víc, než celý stát na mezinárodní pomoc“).
+
+Nabízí se i další perspektiva, například vývoj v čase („rozpočet na sponky vzrostl za poslední čtyři roky trojnásobně“). Nebo můžete sestavit žebříček podle regionů či úřadů. V tom případě ovšem pozor, aby vaše srovnání bylo férové, tedy bralo v úvahu například velikost místní populace: „V přepočtu na jednoho úředníka utratí ušovický městský úřad za sponky čtyřikrát víc, než dělá republikový průměr.“
+
+Také můžete data rozdělit na kategorie („úřady řízené stranou Fialových utratí za sponky o polovinu víc, než úřady obsazené stranou Žlutých“), případně zdůraznit souvislosti: „Úřady řízené politiky, kteří dostali dary od výrobců kancelářských potřeb, utrácí za kancelářské sponky víc; přičemž každá darovaná koruna se na výdajích projeví zvýšením průměrně o 100 Kč.“ (Zde ovšem pozor na rozdíl mezi korelací a kauzalitou.)
 
 ## Užívejte si
 
@@ -124,10 +134,6 @@ Zvykli jsme si čísla spojovat s autoritou a jistotou. Přitom se ale běžně 
 ## Psaní je příběh sám o sobě
 
 Příběh o vašem pátrání, o postupu od jednoho důkazu ke druhému, může posloužit jako skvělá kostra článku. Dvojnásob to platí v datové žurnalistice, kde si jen zřídka vystačíte s jedním číslem. Nové zdroje přináší nové úhly pohledu, nové nápady, lepší celkový obrázek. Říkám si, jestli jsme se příliš nezahleděli do vlastní autority – jestli o něco nepřicházíme, když chceme lidem naservírovat až hotovou odpověď.
-
-## Kontext
-
-Nejlepší otázky jsou ty nejstarší: Je tohle opravdu velké číslo? Kde jsme ho vzali? Opravdu má takovou váhu? Obecně jde o to, abyste se naučili vnímat data jako celek, nepřehlíželi pro samé stromy les, stručně řečeno *vnímali kontext*.
 
 # Vizualizace jako tažný kůň datové žurnalistiky
 
