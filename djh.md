@@ -87,9 +87,7 @@ Ve většině západních zemí je čaj nápojem pro vyšší třídy, které si
 
 ### Co můžete udělat
 
-Výpočty jsou v čajových studiích jistě správně, tedy aspoň většinou. Ale pokud vědci neberou v úvahu další souvislosti, například korelaci pití čaje a sportování, výpovědní hodnota jejich výsledků je mizivá.
-
-Z pozice novináře nemá příliš smysl zpochybňovat číselné výsledky studie, například velikost vzorku, ledaže byste měli vážné pochyby. Vcelku snadno ale můžete zjistit, jestli autoři studie nezapomněli na nějaké zásadní relevantní informace.
+Výpočty jsou v čajových studiích jistě správně, tedy aspoň většinou. Ale pokud vědci neberou v úvahu další souvislosti, například korelaci pití čaje a sportování, výpovědní hodnota jejich výsledků je mizivá. Z pozice novináře nemá příliš smysl zpochybňovat číselné výsledky studie, například velikost vzorku, ledaže byste měli vážné pochyby. Vcelku snadno ale můžete zjistit, jestli autoři studie nezapomněli na nějaké zásadní relevantní informace.
 
 # Tipy pro práci s čísly
 
@@ -113,7 +111,7 @@ Pokud například místní úřady po celé republice loni utratily *x* milión
 
 Nabízí se i další perspektiva, například vývoj v čase („rozpočet na sponky vzrostl za poslední čtyři roky trojnásobně“). Nebo můžete sestavit žebříček podle regionů či úřadů. V tom případě ovšem pozor, aby vaše srovnání bylo férové, tedy bralo v úvahu například velikost místní populace: „V přepočtu na jednoho úředníka utratí ušovický městský úřad za sponky čtyřikrát víc, než dělá republikový průměr.“
 
-Také můžete data rozdělit na kategorie („úřady řízené stranou Fialových utratí za sponky o polovinu víc, než úřady obsazené stranou Žlutých“), případně zdůraznit souvislosti: „Úřady řízené politiky, kteří dostali dary od výrobců kancelářských potřeb, utrácí za kancelářské sponky víc; přičemž každá darovaná koruna se na výdajích projeví zvýšením průměrně o 100 Kč.“ (Zde ovšem pozor na rozdíl mezi korelací a kauzalitou.)
+Také můžete data rozdělit na kategorie („úřady řízené stranou Fialových utratí za sponky o polovinu víc, než úřady obsazené stranou Žlutých“), případně zdůraznit souvislosti: „Úřady řízené politiky, kteří dostali dary od výrobců kancelářských potřeb, utrácí za kancelářské sponky víc, přičemž každá darovaná koruna se na výdajích projeví zvýšením průměrně o 100 Kč.“ (Zde ovšem pozor na rozdíl mezi korelací a kauzalitou.)
 
 ## Užívejte si
 
@@ -236,3 +234,17 @@ Základní otázka zní, jestli chyby v datech zásadně zkreslují dojem, kter�
 Netrapte se nepřesnostmi, dokud na nich opravdu nezáleží. Vaše experimentální průběžné vizualizace sice musí být v principu správně, ale nesejde na tom, jestli v nich všude používáte jednotné zaokrouhlení, jestli vám všechna procenta správně vychází přesně do stovky, nebo jestli vám mezi daty za dvacet let nechybí jeden dva roky. Drobné nepřesnosti jsou přirozenou součástí experimentu. Důležité je zachytit větší trendy a vědět, co ještě potřebujete nasbírat a upřesnit před publikací.
 
 Můžete dokonce zkusit vypustit popisky a měřítko, podobně jako na výše uvedených grafech, a nerušeně se zabývat jen celkovým tvarem dat.
+
+## Kdy se vizualizace nehodí
+
+Efektivní vizualizace vyžaduje rozumně kvalitní, čistá, přesná a smysluplná data. Podobně jako se klasická novinařina opírá o kvalitní citace, fakta a popisy, i datová vizualizace je jen tak dobrá jako data, ze kterých vychází. Kdy je lepší použít jiné nástroje?
+
+* *Když se váš příběh víc hodí pro text nebo multimédia.* Některé příběhy se v číslech vypráví špatně. Jednoduchý graf dokreslující trendy je pěkná věc, stejně jako shrnující statistika. Ale pro bezprostřední, úderný popis některých problémů a jejich dopadu na reálný svět je nejlepší text.
+
+* *Když máte málo dat.* Jedno číslo samo o sobě nic neznamená. V reakci na citované statistiky bývá od editorů často slyšet otázka: „Ve srovnání s čím?“ Jde trend nahoru, nebo dolů? Jak vypadá normální stav?
+
+* *Když v datech schází jasný pohyb.* Při pohledu na data vykreslená například v Excelu občas zjistíte, že jsou plná šumu: hodně kolísají, chybí jim jasný trend. Co s tím? Začnete posouvat osy a měnit měřítko, aby křivka byla zajímavější? Ne! Nejspíš vám schází jednoznačná data, musíte se vrátit k analýze a najít lepší.
+
+* *Když mapa není mapa.* Pokud rozložení dat v prostoru nenese smysluplnou nebo zásadní informaci, jen odvádí pozornost od relevantnějších ukazatelů, například změny proměnných v čase nebo rozdílů mezi regiony, které spolu na mapě nesousedí.
+
+A nezapomínejte na tabulky. Když máte několik málo čísel, která by ovšem mohla být pro čtenáře zajímavá, zkuste tabulku. Je srozumitelná a nevzbuzuje v čtenářích přehnané očekávání nějakého grandiózního příběhu.
