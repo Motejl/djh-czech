@@ -8,6 +8,66 @@ Podobně jako dobrá fotografie není jen otrockým obrazem okamžiku, ale nosit
 
 Čísla si neprávem vysloužila pověst něčeho neprostupného a zároveň nudného. Datová žurnalistika dokazuje, že série grafů a vizualizací může mít sílu fotografií pořízených na válečném poli při nepoměrně větším nasazení. Zároveň jsou čísla součástí našeho každodenního života a jistá „datová gramotnost“ bude brzy nezbytnou výbavou nejen specializovaných, ale i běžných novinářů a jejich čtenářů. Těm všem je určen následující text.
 
+# Proč je datová žurnalistika důležitá?
+
+Zeptali jsme se několika předních praktiků a zastánců datové novinařiny, v čem podle nich spočívá význam oboru. Tady jsou jejich odpovědi.
+
+## Informační filtr
+
+Dokud bylo informací poskrovnu, většina novinářského úsilí spočívala v jejich shánění. Dnes, když je informací nadbytek, je důležitější jejich zpracování. To má dvě hlavní části: analýzu, ve které se snažíme v nekončícím přívalu informací zorientovat a najít smysl, a prezentaci, kde čtenářům překládáme to důležité a relevantní. Datová žurnalistika se podobá vědě – veřejně popisuje své metody a dává k dispozici dostatek podkladů, aby se výsledky daly ověřit.
+
+*—Philip Meyer, emeritní profesor, University of North Carolina at Chapel Hill*
+
+## Budoucnost žurnalistiky
+
+Datová žurnalistika je budoucnost novinařiny, novináři se musí umět vyznat v datech. Kdysi jste sbírali informace po barech, možná i dnes to tak občas funguje. Ale kromě toho musíte umět analyzovat data, mít ty správné nástroje a umět vybrat to důležité. Udržet informace ve správné perspektivě; pomáhat lidem tím, že jim ukážete, jak věci pasují dohromady, co se ve vaší zemi děje.
+
+*—Tim Berners-Lee, zakladatel World Wide Webu*
+
+## Nový nástroj
+
+Datová žurnalistika nabízí nástroje, které tradiční žurnalistika postrádá: nástroje pro hledání v digitálních zdrojích, jejich analýzu a vizualizaci. Datová žurnalistika nechce tradiční novinařinu nahradit, ale doplnit, rozšířit.
+
+Dnes, kdy se většina zdrojů digitalizuje, mají novináři možnost a povinnost být těmto zdrojům blíž. Internet otevřel možnosti, o kterých se nám ani nezdálo. Datová žurnalistika je začátkem evoluce našeho současného systému práce pro online svět.
+
+Datová žurnalistika hraje v každé redakci dvě důležité úlohy: jednak je zdrojem nových námětů, které nepochází z jiných zdrojů, a jednak umožňuje novinám plnit jejich úlohu hlídacího psa. Zvlášť v obdobích finanční nejistoty jsou oba tyto cíle pro noviny zásadní.
+
+Z pohledu regionálních novin je datová žurnalistika naprosto nepostradatelná. Máme takový postřeh, že „volná dlaždice před vaším domem je důležitější než povstání v cizí zemi“. Nedá se minout, má bezprostřední vliv na váš život. Místní noviny mají bezprostřední vliv na své okolí, a vzhledem ke všudypřítomné digitalizaci tedy místní novináři musí umět hledat, analyzovat a vizualizovat data.
+
+*—Jerry Vermanen*
+
+## Odpověď na datové PR
+
+Měřící nástroje jsou dnes snadno dostupné a jejich cena klesá; společnost se na všech úrovních zaměřuje na efektivitu a výkon. Tyto dva faktory se navzájem posilují a vedou k tomu, že se při rozhodování stále víc hledí na kvantitativní ukazatele, trendy a možnosti.
+
+Firmy přichází s novými a novými metrikami, které je ukazují v lepším světle. Politici zbožňují řeči o poklesu nezaměstnanosti a růstu HDP. A kauzy Enron, Worldcom, Madoff nebo Solyndra jsou důkazem novinářské neschopnosti prohlédnout závoj čísel. Konkrétní čísla mají ve srovnání s jinými fakty větší šanci na nekritické přijetí, protože se kolem nich vznáší jakási aura důstojnosti, přestože jsou třeba kompletně smyšlená.
+
+Zběhlost v práci s daty novinářům vrací schopnost kriticky reagovat na čísla a doufejme, že jim vrátí také některá území ztracená ve válce s PR odděleními.
+
+*—Nicolas Kayser-Bril, Journalism++*
+
+## Nezávislá interpretace oficiálních dat
+
+Japonsko je země, která v digitální žurnalistice doposud zaostávala, což se bolestně projevilo zejména v roce 2011 po drtivém zemětřesení a následné katastrofě v jaderných elektrárnách v prefektuře Fukušima.
+
+S hrůzou jsme zjišťovali, že vláda ani odborníci nemají žádná důvěryhodná data o způsobených škodách. Když vláda před veřejností zatajila data ze systému SPEEDI, týkající se rozptylu radioaktivních látek, nebyli jsme je připraveni zpracovat ani v případě, že by je někdo vynesl. Dobrovolníci začali sbírat radioaktivní data pomocí vlastních přístrojů, ale bez znalosti statistiky, interpolace nebo vizualizace. Novináři musí mít přístup ke zdrojovým datům a musí se naučit nespoléhat na jejich oficiální výklad.
+
+*—Isao Matsunami, Chunichi/Tokyo Shimbun*
+
+## Data jsou náš život
+
+Kvalitní datová žurnalistika je dřina, protože kvalitní žurnalistika je dřina. Musíte umět sehnat data, pochopit je a najít v nich kvalitní námět. Občas narazíte na slepou uličku, občas žádné jiné nejsou. Ostatně, kdyby stačilo jen zmáčknout ten správný čudlík, nebyla by to žurnalistika. Právě proto naše práce dává smysl. A ve světě, kde data tvoří stále větší a větší část našich životů, je datová žurnalistika nepostradatelná pro svobodnou a spravedlnou společnost.
+
+*—Chris Taggart, OpenCorporates*
+
+## Časové úspory
+
+Novináři nemají čas na to, aby data přepisovali ručně nebo se je snažili vytahat z PDF souborů. Když se naučíte trochu programovat nebo víte, kde sehnat pomoc, je to velké plus.
+
+Jeden reportér z novin *Folha de São Paulo* pracoval na článku o místním rozpočtu a volal mi, aby mi poděkoval za městské účty, které jsem dával na web. Pro mě to byly dva dny práce, zatímco on už je prý kvůli článku ručně přepisoval tři měsíce.
+
+*—Pedro Markun, hacker, Transparência*
+
 # Datová gramotnost ve třech krátkých krocích
 
 Stejně jako slovo *gramotnost* označuje „schopnost získat a kriticky posoudit psané informace a vyjadřovat se srozumitelně v psaném projevu“, spojení *datová gramotnost* označuje schopnost získávat znalosti, kriticky uvažovat a srozumitelně se vyjadřovat prostřednictvím dat. Patří sem nejen jistý pojem o statistice, ale také schopnost práce s velkými objemy dat a představa o tom, jak vznikají, jak je navzájem propojit a jak je interpretovat.
@@ -69,13 +129,11 @@ Výše uvedený titulek vypadá hrozivě. A je naprosto pravdivý. Mezi půl mil
 
 [8]: http://epp.eurostat.ec.europa.eu/portal/page/portal/statistics/search_database
 
-Kdykoliv pracujete s průměrem, ujasněte si, z čeho se počítá. Je referenční populace rozdělená rovnoměrně? Díky nerovnoměrnému rozložení například většina lidí nadprůměrně dobře řídí auto. Mnozí řidiči se celý život obejdou bez nehody, případně bourají jen jednou. Naproti tomu menší počet nezodpovědných řidičů bourá často, čímž tlačí aritmetický průměr nehodovosti mnohem výš, než by běžný řidič ze své zkušenosti čekal. Totéž platí o rozdělení příjmů: většina lidí má podprůměrný plat a nadprůměrný počet končetin.
+Kdykoliv pracujete s průměrem, ujasněte si, z čeho se počítá. Je referenční populace rozdělená rovnoměrně? Díky nerovnoměrnému rozložení například většina lidí nadprůměrně dobře řídí auto. Mnozí řidiči se celý život obejdou bez nehody, případně bourají jen jednou. Naproti tomu menší počet nezodpovědných řidičů bourá často, čímž tlačí aritmetický průměr nehodovosti mnohem výš, než by běžný řidič ze své zkušenosti čekal. Totéž platí o rozdělení příjmů: většina lidí má podprůměrný plat (a nadprůměrný počet končetin).
 
 ### Co můžete udělat
 
-Vždy berte v úvahu rozložení ukazatele a jeho relativní četnost[^2]. Zkontrolujte si průměr, medián i modus (nejčastěji zastoupenou hodnotu), uděláte si o datech lepší představu. Uvědomte si kontext, v jakých řádech se pohybujete – viz příklad s roztroušenou sklerózou. A na závěr drobný tip: konkrétní příklady poměrů („jeden ze sta“) bývají pro čtenáře výrazně srozumitelnější než procenta (1 %).
-
-[^2]: *base rate*, TODO.
+Vždy berte v úvahu rozložení ukazatele v běžném vzorku. Zkontrolujte si průměr, medián i modus (nejčastěji zastoupenou hodnotu), uděláte si o datech lepší představu. Uvědomte si kontext, v jakých řádech se pohybujete; viz příklad s roztroušenou sklerózou. Konkrétní příklady poměrů („jeden ze sta“) bývají pro čtenáře výrazně srozumitelnější než procenta (1 %).
 
 ## Jak spolehlivá jsou vaše data?
 
