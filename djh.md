@@ -90,7 +90,7 @@ S novými digitálními technologiemi se ve společnosti objevují nové zdroje 
 
 Z naší digitální stopy se dá rekonstruovat celý náš život. Co čteme, kam a kdy cestujeme, co posloucháme, naše první lásky, první kroky našich dětí, dokonce i naše poslední přání – to všechno se dá sledovat, digitalizovat, ukládat a analyzovat. Z tohoto datového vesmíru si můžeme odnést příběhy, odpovědi a myšlenky, které bychom z osobních svědectví při nejlepší vůli neposkládali.
 
-*—Sarah Slobin, Wall Street Journal*
+*—Sarah Slobinová, Wall Street Journal*
 
 # Datová gramotnost ve třech krátkých krocích
 
@@ -225,6 +225,42 @@ Zvykli jsme si čísla spojovat s autoritou a jistotou. Přitom se ale běžně 
 
 Příběh o vašem pátrání, o postupu od jednoho důkazu ke druhému, může posloužit jako skvělá kostra článku. Dvojnásob to platí v datové žurnalistice, kde si jen zřídka vystačíte s jedním číslem. Nové zdroje přináší nové úhly pohledu, nové nápady, lepší celkový obrázek. Říkám si, jestli jsme se příliš nezahleděli do vlastní autority – jestli o něco nepřicházíme, když chceme lidem naservírovat až hotovou odpověď.
 
+# Tipy pro práci s internetovými zdroji
+
+## WHOIS
+
+WHOIS je stručně řečeno registr vlastníků domén, IP adres a dalších internetových objektů. Existuje řada nástrojů, které s tímto registrem umí pracovat; jeden takový nabízí například český server [Lupa]. V poslední době vlastníci domén často používají takzvanou soukromou registraci, při které se v registru neobjeví jejich podrobné údaje. V mnoha zbývajících případech ale můžete podle názvu domény v systému WHOIS zjistit jméno jejího vlastníka, jeho adresu, e-mail i telefonní číslo. Také můžete jako dotaz zadat IP adresu, podle které zjistíte informace o jednotlivci nebo organizaci, kterým počítač s touto adresou patří. To se výborně hodí například když se snažíte zjistit identitu uživatele webové služby, protože většina serverů si IP adresy svých návštěvníků zaznamenává a pamatuje.
+
+[Lupa]: http://www.lupa.cz/nastroje/whois/
+
+## Google Site Search
+
+Při prohledávání obsahu konkrétní domény je nepostradatelným nástrojem vyhledávání Google a jeho klíčové slovo `site:`. Když ke svému dotazu přidáte řetězec `site:domena.com`, Google vrátí pouze výsledky ze zadané domény. Dokonce můžete výsledky zúžit na konkrétní podadresy, například `site:domena.com/stranky/`. Tento trik je zvlášť praktický při hledání materiálů, které vlastník domény sice zveřejnil, ale nehrne se do jejich propagace. Stačí trefit klíčová slova a můžete se dobrat velmi šťavnatých materiálů.
+
+## Google Cache
+
+Kontroverzní stránky může jejich autor bez upozornění stáhnout nebo změnit. Pokud se potřebujete dostat k původnímu znění, můžete jako první instanci zkusit kešovanou verzi, jak si ji při posledním indexování zapamatoval Google. Vyhledávač si vždy pamatuje pouze poslední verzi, takže musíte jednat rychle, než se kešovaná verze přepíše tou aktuální. Zadejte do Googlu jako vyhledávací dotaz URL stránky a když se vám objeví ve výsledcích, najděte si u ní odkaz na kešovanou verzi (anglicky *cached*, česká verze používá označení *archiv*). Pokud uspějete, udělejte si snímek obrazovky nebo zkopírujte relevantní část obsahu; keš může být každým okamžikem aktualizována na současnou verzi stránky.
+
+## Webový archiv
+
+Změny konkrétního serveru nebo stránky za delší časové období, řekněme měsíce nebo roky, si můžete prohlédnout pomocí služby [Wayback Machine][wayback], která pravidelně snímkuje velkou část webu. Stačí zadat adresu stránky, která vás zajímá, a pokud je v archivu, zobrazí se vám kalendář s vyznačenými historickými snímky. Po kliknutí na konkrétní den vám archiv ukáže obsah stránky zhruba v tehdejší podobě – často chybí styly nebo obrázky, ale základní představu o obsahu si uděláte snadno.
+
+[wayback]: http://web.archive.org/web/19961114213839/http://www.seznam.cz/
+
+## Hledání obrázků
+
+Občas byste chtěli vědět, odkud pochází nějaký obrázek, ale bez uvedení zdroje vám klasické vyhledávače jako Google neporadí. Služba [TinEye] se specializuje právě na takové „hledání naruby“, kde zadáte obrázek a dostanete seznam webových stránek, na kterých se vyskytují podobné. Obrázky se srovnávají pomocí chytrých algoritmů, které zvládnou i menší rozdíly v ořezu, zkreslení nebo kompresi. Výborně se služba hodí v případech, kdy máte podezření, že už jste obrázek vydávaný za novinku nebo originál už někde viděli.
+
+[TinEye]: http://www.tineye.com/
+
+## Google Trends
+
+Jasný obrázek o tom, co lidé hledají na webu, si můžete udělat prostřednictvím služby [Google Trends], kde Google zveřejňuje Google své statistiky vyhledávaných frází. Můžete zadat jednu konkrétní frázi („[Fukušima][trends1]“) nebo více frází oddělených čárkou („[Karel Schwarzenberg, Miloš Zeman][trends2]“) pro vzájemné srovnání. Výběr dat se dá zúžit podle různých kritérií, například zeměpisně nebo časově. Škoda jen chybějících absolutních čísel – graf ukazuje pouze relativní „zájem“ o danou frázi v procentech, která nemusí mít jasnou vypovídající hodnotu.
+
+[Google Trends]: http://www.google.com/trends/
+[trends1]: http://www.google.com/trends/explore#q=fukušima&date=1%2F2011%2012m&cmpt=q
+[trends2]: http://www.google.com/trends/explore#q=karel%20schwarzenberg%2C%20miloš%20zeman&date=today%2012-m&cmpt=q
+
 # Vizualizace jako tažný kůň datové žurnalistiky
 
 Ještě než data začnete vynášet do grafů a map, zamyslete se na moment nad tím, jakou roli vlastně hraje interaktivní a statická grafika ve vaší práci.
@@ -286,18 +322,6 @@ Velice často se v žurnalistice používají mapy. Většinou nás zajímá sro
 A nezapomínejte, že vás nikdo nenutí v článku využít všechna dostupná data. Začněte v malém a přidávejte jen tehdy, když je to nevyhnutelně potřeba.
 
 # Tipy pro vizualizaci dat
-
-## Rychlá orientace ve velké databázi
-
-Tuto techniku jsem použil ve Washington Postu, když jsme dostali tip, že vláda George W. Bushe rozdávala granty na základě politické objednávky. Většina grantových programů se uděluje na základě výpočtu, jiné už zase běží řadu let, takže jsme měli k dispozici asi patnáct set různých zdrojů dat a byli jsme zvědaví, jestli v nich najdeme nějakou anomálii.
-
-![Grantové výdaje podle volebních let; Washington Post](figures/hhs-grants.png)
-
-Pro každý program jsem udělal samostatný graf, ve kterém červené tečky označují roky prezidentských voleb a zelené tečky roky kongresové. A výsledek: ano, šest měsíců před volbami se v několika programech objevil prudký nárůst (viz červené tečky s číslem), ale nešlo o volební roky George W. Bushe. Skoky se objevily před volbami v roce 2000, kdy v Bílém domě úřadoval Bill Clinton a na prezidenta kandidoval jeho viceprezident Al Gore.
-
-Na sérii malých grafů je tento vývoj vidět mnohem lépe než v tabulce plné čísel, a díky interaktivnímu formuláři jsme si mohli prohlédnout různé typy grantů, regionů i vládních úřadů. Skupinka malých statických grafů je velmi praktický nástroj, občas i lepší než interaktivní grafika.
-
-Tento konkrétní příklad vznikl v programovacím jazyce PHP, ale dnes byste mnohem lépe pořídili v Excelu s takzvanými *sparkline grafy*. Jejich vynálezce, vizualizační odborník Edward Tufte, jim říká „krátká, hutná grafická slova“. Jsou ideální pro rychlou a zběžnou orientaci ve velkých databázích a dnes jsou k vidění všude, od burzovních přehledů po bilance vzájemných sportovních utkání.
 
 ## Projděte si data ze všech úhlů
 
