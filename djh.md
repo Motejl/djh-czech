@@ -364,3 +364,18 @@ Efektivní vizualizace vyžaduje rozumně kvalitní, čistá, přesná a smyslu
 * *Když mapa není mapa.* Pokud rozložení dat v prostoru nenese smysluplnou nebo zásadní informaci, jen odvádí pozornost od relevantnějších ukazatelů, například změny proměnných v čase nebo rozdílů mezi regiony, které spolu na mapě nesousedí.
 
 A nezapomínejte na tabulky. Když máte několik málo čísel, která by ovšem mohla být pro čtenáře zajímavá, zkuste tabulku. Je srozumitelná a nevzbuzuje v čtenářích přehnané očekávání nějakého grandiózního příběhu.
+
+# Tiráž
+
+Základem tohoto textu byla publikace [Data Journalism Handbook][djh], kterou přeložil, zkrátil a upravil [Tomáš Znamenáček][tz] díky příspěvku od [Open Society Fund][osf].
+
+Text je zveřejněn pod licencí [Creative Commons Attribution+ShareAlike][cc], což stručně řečeno znamená, že jej můžete libovolně šířit a dál na něm stavět, pokud uvedete odkaz na zdroj a výsledky své práce zveřejníte pod podobnou licencí. Zdrojový text publikace je na [GitHubu][github].
+
+PDF verze je vysázena písmem [Skolar] Davida Březiny.
+
+[djh]: http://datajournalismhandbook.org/
+[tz]: http://zmotula.cz/
+[osf]: http://www.osf.cz/
+[cc]: http://creativecommons.org/licenses/by-sa/3.0/
+[github]: https://github.com/zoul/djh-czech
+[Skolar]: http://rosettatype.com/Skolar
