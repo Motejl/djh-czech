@@ -225,6 +225,66 @@ Zvykli jsme si čísla spojovat s autoritou a jistotou. Přitom se ale běžně 
 
 Příběh o vašem pátrání, o postupu od jednoho důkazu ke druhému, může posloužit jako skvělá kostra článku. Dvojnásob to platí v datové žurnalistice, kde si jen zřídka vystačíte s jedním číslem. Nové zdroje přináší nové úhly pohledu, nové nápady, lepší celkový obrázek. Říkám si, jestli jsme se příliš nezahleděli do vlastní autority – jestli o něco nepřicházíme, když chceme lidem naservírovat až hotovou odpověď.
 
+# Extrakce dat z webu
+
+Ideální je, když se vám data podaří na webu najít v nějakém přímo zpracovatelném formátu, například jako excelovskou tabulku nebo ve formátu CSV. Občas se ale stane, že data sice na webu najdete, ale nejsou ke stažení v rozumném formátu a obyčejné kopírování přes schránku nepřipadá v úvahu nebo nefunguje. Nemusíte propadat panice, ještě existuje několik možností:
+
+* Stahování dat prostřednictvím API. Moderní webové služby, například online databáze a sociální sítě (včetně Twitteru, Facebooku a dalších) dnes kromě běžného uživatelského rozhraní často nabízí také API neboli *application programming interface*, rozhraní určené strojům. To je fantastický způsob, jak se dostat k vládním i komerčním datům, včetně informací ze sociálních médií.
+
+* Extrakce dat z PDF. Značně pracná varianta, protože PDF je formát určený primárně pro popis tištěné stránky a neuchovává všechny informace o struktuře dat, která jsou v dokumentu uložena. Konkrétní návod je mimo rozsah této publikace; nástroje a tipy pro extrakci dat z PDF najdete na webu.
+
+* *Screen scraping* neboli extrakce dat přímo z webových stránek. U této varianty vyzobáváte informace prostřednictvím speciálního programu nebo vlastního kusu kódu z webové stránky, která nebyla primárně určena pro strojové zpracování. Scraping je velice silný nástroj a dá se použít téměř všude, ale vyžaduje určité technické znalosti webu.
+
+Přes všechny pěkné technické varianty ale nezapomínejte na jednoduchá řešení: často se vyplatí ještě chvilku hledat soubor se strojově čitelnými daty nebo prostě zavolat instituci, jejíž data potřebujete. A pokud nic z toho nevyjde, můžete se pustit do scrapování, nad kterým se teď na chvíli zastavíme.
+
+## Co jsou strojově čitelná data?
+
+Když hledáte data pro další zpracování, vaším cílem jsou většinou *strojově čitelná* data. Což znamená data uložená s ohledem na další automatické zpracování počítačem, nikoliv prezentaci lidem; data strukturovaná podle logiky uložených informací, nikoliv podle budoucího zobrazení. Mezi strojově snadno čitelné formáty patří například CSV, XML, JSON nebo excelovské tabulky. Naopak dokumenty z textových procesorů (Word a podobně), soubory ve formátu PDF a do jisté míry také HTML soubory se zabývají spíše vizuálním rozložením informací. Zejména formát PDF byl původně určen pro komunikaci s tiskárnou, takže pracuje spíše s umístěním jednotlivých čar a teček na stránce, nikoliv s vyššími celky jako písmeny, slovy, odstavci, tabulkami a podobně.
+
+## K čemu je scrapování
+
+Určitě jste to zažili sami: najdete na webu zajímavou tabulku a zkusíte si ji zkopírovat do Excelu, abyste ji mohli nějak zpracovat nebo uložit na později. Jenže to v praxi často nefunguje, případně jsou informace roztroušené do mnoha samostatných stránek. Ruční kopírování rychle omrzí, takže má smysl místo něj použít kus kódu.
+
+Velká výhoda scrapování je v tom, že se dá použít prakticky u jakéhokoliv webu, od předpovědi počasí po přehled vládních výdajů, a to i když server nenabízí API pro přístup ke strojově čitelným datům. I scrapování ale pochopitelně má své limity. Automatická extrakce dat je složitější, neprakticky náročná nebo rovnou nemožná například v následujících případech:
+
+* Stránky se špatným HTML kódem, který poskytuje jen minimum informací o struktuře dokumentu. Klasickým příkladem jsou starší vládní weby.
+
+* Systémy přímo stavěné proti automatickému zpracování, například [CAPTCHA] nebo *paywally*, platební zdi umožňující přístup pouze platícím uživatelům.
+
+* Weby, které spoléhají na funkce interaktivního webového prohlížeče, například JavaScript nebo cookies.
+
+* Weby, na kterých chybí úplné seznamy i možnost vyhledávat, takže se při scrapování nemáte od čeho odrazit a museli byste ručně postupovat jednu stránku po druhé.
+
+* Zákaz automatického zpracování ze strany správců serveru.
+
+[CAPTCHA]: http://cs.wikipedia.org/wiki/CAPTCHA
+
+Problematická může být i právní stránka věci; právní systém některých zemí omezuje možnosti nakládat s daty publikovanými online. Jako novinář v tomto ohledu můžete a nemusíte mít zvláštní práva. Scraping veřejně dostupných vládních dat by měl být bezproblémový, jen se dvakrát ujistěte, než data budete publikovat. Komerční organizace a některé neziskovky bývají méně tolerantní a protože scraping může nadměrně zatěžovat jejich server, v krajním případě ho mohou vnímat jako [DoS útok][DOS]. Stažené informace se také mohou týkat soukromí osob, takže byste mohli mít problémy se zákony na ochranu osobních údajů nebo profesními etickými kodexy.
+
+[DOS]: http://cs.wikipedia.org/wiki/Denial_of_service
+
+## Scrapovací nástroje
+
+Programů, které se dají použít pro extrakci informací z webových stránek, existuje široké spektrum, od webových služeb po rozšíření webového prohlížeče. Služba [Readability] vám například pomůže vytáhnout z webové stránky čistý text, rozšíření [DownThemAll] pro Firefox usnadňuje stahování většího počtu souborů, a rozšíření [Scraper] pro Google Chrome je přímo stavěné na extrakci tabulek z webových stránek.
+
+Praktické jsou také funkce prohlížečů určené webovým vývojářům. Díky nim se můžete podívat, jak je stránka strukturovaná a co si váš prohlížeč povídá se serverem na druhé straně. Google Chrome, Safari a Internet Explorer mají nástroje pro vývojáře vestavěné, pro Firefox si můžete stáhnout rozšíření [FireBug].
+
+Přímo na scraping se specializuje server [ScraperWiki], kde si můžete snadno napsat scraper v Pythonu, Ruby nebo PHP. Je to ideální způsob, jak začít se scrapováním, aniž byste se museli mořit s instalací vývojářských nástrojů na svůj vlastní počítač. Scrapování do určité míry podporují i další rozšířené webové služby, například Google Documents nebo Yahoo! Pipes.
+
+[Readability]: http://www.readability.com/
+[DownThemAll]: http://www.downthemall.net/
+[Scraper]: https://chrome.google.com/webstore/detail/mbigbapnjcgaffohmbkdlecaccepngjd
+[FireBug]: http://getfirebug.com/
+[ScraperWiki]: https://scraperwiki.com/
+
+## Scrapování po technické stránce
+
+Klikací nástroje zmíněné v předchozím oddílu jsou výborný začátek, ale dříve nebo později se většinou budete muset ponořit do scrapovaných stránek a najít, kde přesně se v nich hledané informace nachází. Nejde o žádné velké programování, jen musíte mít základní představu o struktuře webových stránek a databázi, ze které těžíte.
+
+HTML stránka se uvnitř skládá z mnoha takzvaných *tagů* neboli značek, které strukturují holý text stránky do větších logických celků (například odstavců, tabulek nebo odkazů) a vkládají do něj další objekty, například obrázky. Ke značkám mohou být pomocí takzvaných *atributů* připojené další informace. Často mívá značka například jedinečný identifikátor, podle kterého ji můžete snadno najít v celém dokumentu. Běžné je také podrobnější rozdělení značek jednoho typu do několika různých *tříd*.
+
+Všechny tyto jazykové nástroje mají jediný cíl: vnést do textu stránky strukturu, aby se dal snadno formátovat a zpracovávat. A právě toho se využívá i při scrapování dat. Nejprve si prohlédnete zdrojový kód stránky (například pomocí vývojářských doplňků prohlížeče), abyste zjistili, kde přesně se ve změti značek nachází potřebné informace. Pak napíšete malý program, takzvaný *scraper*, který podle vašich instrukcí sáhne na ta správná místa v dokumentu a data vytáhne.
+
 # Tipy pro práci s internetovými zdroji
 
 ## WHOIS
@@ -235,7 +295,7 @@ WHOIS je stručně řečeno registr vlastníků domén, IP adres a dalších in
 
 ## Google Site Search
 
-Při prohledávání obsahu konkrétní domény je nepostradatelným nástrojem vyhledávání Google a jeho klíčové slovo `site:`. Když ke svému dotazu přidáte řetězec `site:domena.com`, Google vrátí pouze výsledky ze zadané domény. Dokonce můžete výsledky zúžit na konkrétní podadresy, například `site:domena.com/stranky/`. Tento trik je zvlášť praktický při hledání materiálů, které vlastník domény sice zveřejnil, ale nehrne se do jejich propagace. Stačí trefit klíčová slova a můžete se dobrat velmi šťavnatých materiálů.
+Při prohledávání obsahu konkrétní domény je nepostradatelným nástrojem vyhledávání Google a jeho klíčové slovo `site:`. Když ke svému dotazu přidáte řetězec `site:domena.com`, Google vrátí pouze výsledky ze zadané domény. Dokonce můžete výsledky zúžit na konkrétní podadresy, například `site:domena.cz/stranky/`. Tento trik je zvlášť praktický při hledání materiálů, které vlastník domény sice zveřejnil, ale nehrne se do jejich propagace. Stačí trefit klíčová slova a můžete se dobrat velmi šťavnatých materiálů.
 
 ## Google Cache
 
