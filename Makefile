@@ -8,6 +8,7 @@ djh.pdf: djh.md Makefile
 		--variable title="Příručka datové žurnalistiky" \
 		--variable version="$(BUILD)" \
 		--variable date="$(DATE)" \
+		--include-in-header styles.tex \
 		--toc --no-tex-ligatures --latex-engine=xelatex -o $@ $<
 preview: djh.pdf
 	open $<
