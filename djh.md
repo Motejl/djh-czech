@@ -92,6 +92,12 @@ Z naší digitální stopy se dá rekonstruovat celý náš život. Co čteme, k
 
 *—Sarah Slobinová, Wall Street Journal*
 
+## Otevřená data pro zpětnou kontrolu
+
+Na web často dáváme kromě vizualizací také data ke stažení. Čtenáři tak mají možnost data prozkoumat pomocí interaktivní vizualizace nebo si je stáhnout a zpracovat podle potřeby sami. Jaký to pro nás má význam? Zvyšuje to průhlednost *Seattle Times*. Předkládáme čtenářům stejná data, ze kterých odvozujeme naše závěry, často zásadní. A kdo té možnosti využívá? Rozhodně naši kritici, a kromě nich všichni, kdo se o příslušný článek hodně zajímají. Publikovaná data fungují i jako zpětná vazba – kritici i běžní čtenáři nás mohou upozornit na něco, co jsme přehlédli, co by šlo dál vytěžit. Pokud chce člověk dělat novinařinu, na které záleží, tohle všechno jsou plusy.
+
+*—Cheryl Phillipsová, Seattle Times*
+
 # Datová gramotnost ve třech krátkých krocích
 
 Stejně jako slovo *gramotnost* označuje „schopnost získat a kriticky posoudit psané informace a vyjadřovat se srozumitelně v psaném projevu“, spojení *datová gramotnost* označuje schopnost získávat znalosti, kriticky uvažovat a srozumitelně se vyjadřovat prostřednictvím dat. Patří sem nejen jistý pojem o statistice, ale také schopnost práce s velkými objemy dat a představa o tom, jak vznikají, jak je navzájem propojit a jak je interpretovat.
@@ -277,7 +283,7 @@ Přímo na scraping se specializuje server [ScraperWiki], kde si můžete snadno
 [FireBug]: http://getfirebug.com/
 [ScraperWiki]: https://scraperwiki.com/
 
-## Scrapování po technické stránce
+## Technické principy scrapování
 
 Klikací nástroje zmíněné v předchozím oddílu jsou výborný začátek, ale dříve nebo později se většinou budete muset ponořit do scrapovaných stránek a najít, kde přesně se v nich hledané informace nachází. Nejde o žádné velké programování, jen musíte mít základní představu o struktuře webových stránek a databázi, ze které těžíte.
 
