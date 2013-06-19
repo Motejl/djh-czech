@@ -1,3 +1,9 @@
+# Předmluva
+
+[*Data Journalism Handbook*][djh], společné dílo desítek novinářů i datových nadšenců z celého světa, nabízí pestrý a poutavý vhled do datové žurnalistiky. Abychom rychle se rozvíjející trend datové žurnalistiky více přiblížili českému publiku,  rozhodli jsme se vydat českou verzi této jedinečné publikace. Z originální knihy jsme vybrali pasáže, které nám přišly nejpřínosnější, přeložili je a opatřili českým kontextem. Ambicí příručky není nabídnout kompletní návod, ale spíše úvod do problematiky plný inspirativních příkladů a praktických tipů. Věříme, že bude pro české novináře tím pravým průvodcem na dobrodružnou výpravu krajinou velkých dat.
+
+*—Michaela Rybičková, Fond Otakara Motejla*
+
 # Úvod
 
 S pokrokem fotografických technologií se v druhé polovině 19. století objevil nový žánr novinářské fotografie; žurnalistika získala kvalitativně zcela nový nástroj a všichni společně jsme získali nový pohled na svět kolem sebe.
@@ -429,7 +435,7 @@ A nezapomínejte na tabulky. Když máte několik málo čísel, která by ovše
 
 # Tiráž
 
-Základem tohoto textu byla publikace [Data Journalism Handbook][djh], kterou přeložil, zkrátil a upravil [Tomáš Znamenáček][tz] díky příspěvku od [Open Society Fund][osf].
+Základem tohoto textu byla publikace [*Data Journalism Handbook*][djh], kterou přeložil, zkrátil a upravil [Tomáš Znamenáček][tz] díky příspěvku od [Open Society Fund][osf].
 
 Text je zveřejněn pod licencí [Creative Commons Attribution+ShareAlike][cc], což stručně řečeno znamená, že jej můžete libovolně šířit a dál na něm stavět, pokud uvedete odkaz na zdroj a výsledky své práce zveřejníte pod podobnou licencí. Zdrojový text publikace je na [GitHubu][github].
 
