@@ -454,17 +454,17 @@ V redakci v prvních měsících málokdo tušil, proč tam jsme: grafy přeci d
 
 Už jen dostat se k policejním statistikám byla vrcholná diplomacie. Samotná vizualizace a vývoj webové aplikace nám pak coby neprogramátorům zabraly několik dalších týdnů. K umístění dat na mapu bylo potřeba sehnat síť pražských ulic, vymyslet logiku i uživatelské rozhraní aplikace, vylámat si zuby při pokusech o vytvoření vlastního funkčního kódu a pak sehnat vývojáře, který to celé poslepuje. Na testování moc času nezbylo. A o nějakém redakčním vývoji jsme si tehdy, před rokem, mohli nechat jen zdát.
 
-V prvním plánu mapa odtahů odvyprávěla čtenáři jeho vlastní příběh: podíval se na ulice, kde obvykle parkuje, aby zjistil, zda mu nehrozí odtahy v míře větší než malé a zkontroloval si nejčastější příčiny odtahů ve své čtvrti či ulici. 
+V prvním plánu mapa odtahů odvyprávěla čtenáři jeho vlastní příběh: podíval se na ulice, kde obvykle parkuje, aby zjistil, zda mu nehrozí odtahy v míře větší než malé, a zkontroloval si nejčastější příčiny odtahů ve své čtvrti či ulici. 
 
 Pak měla mapa ještě druhý plán. Vzorce, které se na mapě objevily až po chvíli hledání, a na nich postavené novinářské hypotézy: Ukázalo se, že nejvíc se neodtahuje tam, kde auta nejvíc překážejí, ale v blízkosti odtahových parkovišť, kde je to pro odtahovku nejjednodušší.
 
-Každý, kdo pracoval v novinách, zná tu beznaděj, když se snaží politikovi či mocnému úředníkovi dostat pod kůži, ale respondent pokaždé vyklouzne. Když má ale novinář v ruce data, je to pro takového úhoře daleko těžší: viz [rozhovor kolegů Měřičky a Pavce][rozhovor-klema] s bývalým šéfem městské policie Ludvíkem Klemou.
+Každý, kdo pracoval v novinách, zná tu beznaděj, když se snaží politikovi či mocnému úředníkovi dostat pod kůži, ale respondent pokaždé vyklouzne. Když má ale novinář v ruce data, je to pro takového úhoře daleko těžší – viz [rozhovor kolegů Měřičky a Pavce][rozhovor-klema] s bývalým šéfem městské policie Ludvíkem Klemou.
 
 [rozhovor-klema]: http://zpravy.ihned.cz/cesko/c1-57308620-sef-prazskych-strazniku-policista-si-nevybira-prvni-auto-co-uvidi-odtahne
 
 ### Pasti a pastičky
 
-Mapa odtahů nás naučila dvě věci: za prvé, je důležité mluvit s redakcí. Za druhé, opravdu potřebujeme programátora. Nástroje, které jsou „zdarma každému dostupné na webu“ a „naučí se je používat každý“, jak hlásají propagátoři datové a občanské žurnalistiky, jsou sice fajn, ale pokud je nasadíte v ostrém redakčním provozu, narazíte brzy na různá omezení: proč Google Fusion Tables hlásí po nahrání dvou obsáhlejších tabulek překročení datového limitu? Proč jsou tak pomalé, často padají a jakmile se je naučíte používat, uživatelské rozhraní se změní? Proč když si tabulku z nich stáhnete ve formátu CSV a zkusíte nahrát do Google Spreadsheet, zjistíte, že si ani dva programy od jednoho výrobce mezi sebou nerozumí, protože každý používá jiné kódování češtiny? A proč programátoři dodnes nedokázali vyřešit formátování data a času nebo desetinné čárky tak, aby to fungovalo na celém světě tak dobře jako ve Spojených státech?
+Mapa odtahů nás naučila dvě věci: za prvé, je důležité mluvit s redakcí. Za druhé, opravdu potřebujeme programátora. Nástroje, které jsou „zdarma každému dostupné na webu“ a „naučí se je používat každý“, jak hlásají propagátoři datové a občanské žurnalistiky, jsou sice fajn, ale pokud je nasadíte v ostrém redakčním provozu, narazíte brzy na různá omezení: proč Google Fusion Tables hlásí po nahrání dvou obsáhlejších tabulek překročení datového limitu? Proč jsou tak pomalé, často padají a jakmile se je naučíte používat, uživatelské rozhraní se změní? Proč když si tabulku z nich stáhnete ve formátu CSV a zkusíte nahrát do Google Spreadsheet, zjistíte, že si ani dva programy od jednoho výrobce mezi sebou nerozumí, protože každý používá jiné kódování češtiny? A proč programátoři dodnes nedokázali vyřešit formátování data a času nebo desetinné čárky tak, aby to fungovalo na celém světě tak dobře jako ve Spojených státech?
 
 Pasti, které na datové žurnalisty číhají, nejsou jen technické, ale také byrokratické. Data produkovaná (nejen) českou státní správou jsou plná nepřesností a chyb, které strojové zpracování často znemožňují: Proč úředníci píší v jedné databázi nejdřív jméno, pak příjmení, a podruhé obráceně? Proč registr vozidel nesmyslně uvádí, že v celé zemi jezdí jen tři Škody Favorit? Proč úředníci místo jedničky píšou do identifikačního čísla firmy malé *l*? (Odpověď: Protože se to tak naučili, když se lejstra vyplňovala ještě na psacím stroji.)
 
@@ -482,7 +482,7 @@ Někdy v této fázi, v březnu 2013, nabrala naše cesta k jádru datové žurn
 
 V naší práci přibyl jeden krok – kritické zkoumání už hotových aplikací a jejich ladění. (Tady se sluší poděkovat našemu největšímu kritikovi, Josefu Šlerkovi – kdykoliv máme pocit, že na aplikaci už není žádná práce, objeví se podvědomý kritik, „vnitřní Šlerka“, a vysvětlí nám, že to máme celé předělat.)
 
-Doplnili jsme také svou definici datové žurnalistiky. Často jsme pomocí dat pouze „ilustrovali“ články jiných redaktorů. Obvykle potřebovali zaplnit chybějící místo mapou, vložit do článku tabulku nebo vytvořit graf. Tohle je práce, kterou se musí naučit sami redaktoři. „Opravdová“ datová žurnalistika by měla sloužit spíš investigaci než ilustraci, nebo prostě lepšímu pochopení problémů, o nichž novináři píší. Spíš objevování nových skutečností a provázaností, než jen popisování toho, co se „tak nějak ví“.
+Doplnili jsme také svou definici datové žurnalistiky. Často jsme pomocí dat pouze „ilustrovali“ články jiných redaktorů. Obvykle potřebovali zaplnit chybějící místo mapou, vložit do článku tabulku nebo vytvořit graf. Tohle je práce, kterou se musí naučit sami redaktoři. „Opravdová“ datová žurnalistika by měla sloužit spíš investigaci než ilustraci; spíš objevování nových skutečností a provázaností, než jen popisování toho, co se „tak nějak ví“.
 
 Datová žurnalistika jako žánr časem zmizí. Stejně jako neexistuje „magnetofonová žurnalistika“ nebo „telefonní žurnalistika“, rozpustí se časem i datová žurnalistika v redakčním provozu. Stane se novinařinou, ke které není potřeba přidávat žádné přívlastky.
 
@@ -490,7 +490,7 @@ Datová žurnalistika jako žánr časem zmizí. Stejně jako neexistuje „magn
 
 ## Přístup k informacím z pohledu uživatele
  
-Tento text nemá ambice být univerzálním návodem, jak žádat státní správu o informace. Soudy, které v textu naleznete, lze přičítat jen autorově názoru a zkušenostem, které nemusejí být vždycky úplně přenosné. Nutno dodat, že pokud narazíte na osobu, která bude dostatečně autoritativně tvrdit, že v tomto textu je něco špatně, tak má pravděpodobně pravdu.
+Následující text nemá ambice být univerzálním návodem, jak žádat státní správu o informace. Soudy, které v textu naleznete, lze přičítat jen autorově názoru a zkušenostem, které nemusejí být úplně přenosné. Nutno dodat, že pokud narazíte na osobu, která bude dostatečně autoritativně tvrdit, že v tomto textu je něco špatně, tak má pravděpodobně pravdu.
  
 ### Infozákon a paní na ústředně
  
@@ -498,19 +498,19 @@ V novinářské praxi se jistě dostanete do situace, kdy budete od některé ze
  
 [zakon106]: http://www.zakonyprolidi.cz/cs/1999-106
  
-Než sáhnete po úředních postupech, ptejte se. Zní to dost banálně, ale má to svá úskalí. V první řadě, snažte se vyhnout tiskovým mluvčím. Nejkvalitnější informace o datech, která se snažíte získat, vám poskytne člověk, který má dataset na starosti. Většina úřadů a institucí má na webu telefonní seznam. Začněte zde a v případě neúspěchu se vyptávejte na telefonní ústředně.
+Než sáhnete po úředních postupech, ptejte se. Zní to dost banálně, ale má to svá úskalí. V první řadě se snažte vyhnout tiskovým mluvčím. Nejkvalitnější informace o datech, která se snažíte získat, vám poskytne člověk, který má dataset na starosti. Většina úřadů a institucí má na webu telefonní seznam. Začněte zde a v případě neúspěchu se vyptávejte na telefonní ústředně.
  
 I když třeba nedostanete člověka, kterého potřebujete, jistě vám poradí, kdo má v podniku na starosti právě vaše téma. A pak zkuste znovu ústřednu a tak dále. Mimochodem, telefonní operátoři a operátorky na vrátnicích institucí bývají hotový poklad. Většinou jsou na svém místě dost dlouho a mají přehled o chodu své instituce. Kromě znalostí telefonů často ví, čím se kdo zabývá a kdy bude k zastižení.
  
 Pravdou je, že se instituce v Česku profesionalizují. V praxi to znamená, že jakmile utrousíte, že jste od novin, odkážou vás na tiskového mluvčího. I tak je dobré mít v předstihu osondováno, kdo má ve správě váš dataset a co obnáší jeho vydání. Můžete pak mluvčímu poskytnout přesné pokyny. Jinak máte slušnou šanci, že se do toho někdo z tiskového oddělení „kreativně“ vloží a celý proces poskytnutí dat zkomplikuje. Zdá se vám to absurdní? Tak například v pražském dopravním podniku o vydání datasetů novinářům rozhoduje oddělení marketingu a PR.
  
-V novinářské praxi je takřka kritické získat data dohodou. Pokud dojde na přetahování prostřednitvím paragrafů (což je například zmíněný zákon 106), ocitnete se v zajetí lhůt a odvolacích procedur. Instituce má na vyřízení vašeho požadavku 15 dní (které si ale může dle libovůle až o 10 dní prodloužit).
+V novinářské praxi je takřka kritické získat data dohodou. Pokud dojde na přetahování prostřednictvím paragrafů (což je například zmíněný zákon 106), ocitnete se v zajetí lhůt a odvolacích procedur. Instituce má na vyřízení vašeho požadavku 15 dní (které si ale může dle libovůle až o 10 dní prodloužit).
  
 Odvolání proti neposkytnutí informací se může vléct měsíc a ani potom nemusíte svá data získat. Správní žaloba se pak počítá na měsíce až jednotky let.
  
 ### Zajímejte se
 
-Samozřejmě se běžně stává, že instituce odmítá data poskytnout. Zjistíte, že je za tím často neopodstatněná obava z jejich použití, případně nějaký majetnický komplex konkrétního zaměstnance státní správy („my jsme ten dataset vytvořili, tak je náš, nikomu ho nedáme“). Rovněž se dotyčný pracovník může bránit přílivu další práce: „Váš dotaz je položen tak, že vyžaduje předzpracování či vytřídění dat.” V takovém případě se můžete dohodnout na méně náročném řešení.
+Samozřejmě se běžně stává, že instituce odmítá data poskytnout. Často je za tím neopodstatněná obava z jejich použití, případně nějaký majetnický komplex konkrétního zaměstnance státní správy („my jsme ten dataset vytvořili, tak je náš, nikomu ho nedáme“). Rovněž se dotyčný pracovník může bránit přílivu další práce: „Váš dotaz je položen tak, že vyžaduje předzpracování či vytřídění dat.” V takovém případě se můžete dohodnout na méně náročném řešení.
  
 Když se instituce vydání dat brání, pomáhá vysvětlovat a zase vysvětlovat. Prokažte dobrou vůli; pokud je to možné, se správcem dat se sejděte, zkuste ho přesvědčit, že vás projekt za to stojí. Takoví lidé bývají perfektně seznámení s danou problematikou, často si užitečně rozšíříte obzory. Někdy ale sebevětší snaha nepomůže.
  
@@ -528,7 +528,7 @@ V ideálním případě vaši žádost vyřídí kladně a data dostanete. A kd
  
 V případě, že žádosti není vyhověno, můžete se odvolat (ve lhůtě 15 dnů od obdržení rozhodnutí) či si stěžovat (do 30 dnů). Mimochodem, ono „nevyhovění“ má řadu podob: instituce například neodpoví, vaši žádost s nějakým odůvodněním zamítne (i jen částečně), nebo si naúčtuje nesmyslnou částku za vydání dat.
  
-Konkrétní situace a jejich řešení naleznete na fóru webu [otevřete.cz][otevrete]. V diskusi zde občas odpovídá i autor zákona 106 Oldřich Kužílek. Než se ale zeptáte, zkuste nejdřív hledat. Rovněž zde naleznete [příručku][otevrete-prirucka] a novinky z oblasti přístupu k informacím; judikatura se v této oblasti stále vyvíjí. V zásadě ale platí, že pokud instituce vaši žádost zamítne, odvoláváte se. V ostatních případech (neodpoví, nastaví nesmyslnou cenu, popírá vlastnictví dat) si stěžujete.
+Konkrétní situace a jejich řešení naleznete na fóru webu [otevřete.cz][otevrete]. V diskusi zde občas odpovídá i Oldřich Kužílek, autor zákona 106. Než se ale zeptáte, zkuste nejdřív hledat. Rovněž zde naleznete [příručku][otevrete-prirucka] a novinky z oblasti přístupu k informacím, judikatura se v této oblasti stále vyvíjí. V zásadě ale platí, že pokud instituce vaši žádost zamítne, odvoláváte se. V ostatních případech (neodpoví, nastaví nesmyslnou cenu, popírá vlastnictví dat) si stěžujete.
 
 [otevrete]: http://forum.otevrete.cz
 [otevrete-prirucka]: http://www.otevrete.cz/ucast-obcanu-na-rozhodovani/publikace-dalsich-106-odpovedi-na-vase-dotazy-oldrich-kuzilek-44.html
@@ -539,9 +539,9 @@ Stížnost i odvolání musí obsahovat identifikaci rozhodnutí, které napadá
  
 U stížností napadáte procesní správnost rozhodnutí (dodržení termínů, formální nedostatky odpovědi atd.) či přiměřenost poplatků. Odvolání napadá konkrétní důvody zamítnutí žádosti; zde je vhodné zapátrat v judikatuře k podobným případům a jimi argumentovat. A ano, tušíte správně, i dřívější rozsudky jsou k dispozici na webu otevřete.cz.
  
-O odvolání či stížnosti rozhoduje nadřízený orgán subjektu, od kterého data žádáte (například u pražské městské části je to magistrát). Ten může dřívější rozhodnutí zrušit a nebo potvrdit. V případě zrušení se žádost vrací k subjektu, od kterého žádáte a rozhoduje se o ní znovu. Pravdou je, že instituce může tutéž žádost i napodruhé zamítnout a může tak učinit po každém dalším odvolání (které sice vyhrajete, ale data stále nemáte). A pozor, pokud subjekt nadřízený orgán nemá, rozhoduje o vašem odvolání sám.
+O stížnosti či odvolání rozhoduje nadřízený orgán subjektu, od kterého data žádáte (například u pražské městské části je to magistrát). Ten může dřívější rozhodnutí zrušit a nebo potvrdit. V případě zrušení se žádost vrací k subjektu, od kterého žádáte a rozhoduje se o ní znovu. Pravdou je, že instituce může tutéž žádost i napodruhé zamítnout a může tak učinit po každém dalším odvolání (které sice vyhrajete, ale data stále nemáte). A pozor, pokud subjekt nadřízený orgán nemá, rozhoduje o vašem odvolání sám.
  
-Po vyčerpání opravných prostředků (odvolání či stížnost) se pak můžete obrátit na soud a podat správní žalobu. Zde už vás musí zastupovat advokát a na rozhodnutí můžete čekat několik měsíců nebo i let. Tomáš Němeček z Lidových novin takto například vymohl výsledky státních maturit. Pravdou nicméně je, že shánět data k aktuálním tématům skrze soudní spory  není moc reálné.
+Po vyčerpání opravných prostředků (odvolání či stížnost) se pak můžete obrátit na soud a podat správní žalobu. Zde už vás musí zastupovat advokát a na rozhodnutí můžete čekat několik měsíců nebo i let. Tomáš Němeček z Lidových novin takto například vymohl výsledky státních maturit. Pravdou nicméně je, že shánět data k aktuálním tématům skrze soudní spory není moc reálné.
 
 *—Jan Cibulka*
 
