@@ -575,7 +575,7 @@ Po vyčerpání opravných prostředků (odvolání či stížnost) se pak můž
 
 # Tiráž
 
-Základem tohoto textu byla publikace [Data Journalism Handbook][djh], kterou přeložil, zkrátil, opět rozšířil a upravil [Tomáš Znamenáček][tz] díky příspěvku od [Open Society Fund][osf].
+Základem tohoto textu byla publikace [Data Journalism Handbook][djh], kterou přeložil, zkrátil, opět rozšířil a upravil [Tomáš Znamenáček][tz] díky příspěvku od [Fondu Otakara Motejla][fom].
 
 Text je zveřejněn pod licencí [Creative Commons Attribution+ShareAlike][cc], což stručně řečeno znamená, že jej můžete libovolně šířit a dál na něm stavět, pokud uvedete odkaz na zdroj a výsledky své práce zveřejníte pod podobnou licencí. Zdrojový text publikace je na [GitHubu][github].
 
@@ -583,7 +583,7 @@ PDF verze je vysázena písmem [Skolar] Davida Březiny.
 
 [djh]: http://datajournalismhandbook.org/
 [tz]: http://zmotula.cz/
-[osf]: http://www.osf.cz/
+[fom]: http://www.motejl.cz/
 [cc]: http://creativecommons.org/licenses/by-sa/3.0/
 [github]: https://github.com/zoul/djh-czech
 [Skolar]: http://rosettatype.com/Skolar
