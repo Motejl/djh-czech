@@ -1,7 +1,9 @@
 BUILD=$(shell git rev-parse HEAD | cut -c 1-8)
 DATE=$(shell date "+%-d. %-m. %Y")
 
-all: output/djh.pdf output/djh.epub
+all: prereq output/djh.pdf output/djh.epub
+prereq:
+	mkdir output
 output/djh.epub: djh.md Makefile
 	pandoc \
 		--variable lang=czech \
@@ -21,4 +23,4 @@ output/djh.pdf: djh.md Makefile
 preview: output/djh.pdf
 	open $<
 clean:
-	rm -rf output/*
+	rm -rf output
