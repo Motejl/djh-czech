@@ -1,8 +1,17 @@
 # Předmluva
 
-Datová žurnalistika, trend světových newsroomů, si do tuzemských redakcí teprve hledá cestu. Česká verze [The Data Journalism Handbook][djh] tento rychle se rozvíjející fenomén přibližuje českému publiku a nabízí různorodý pohled na nové způsoby práce s daty a možnosti jejich využití v novinářské praxi. Z publikace, která je společným dílem desítek novinářů i datových nadšenců z celého světa, jsme vybrali nejpřínosnější pasáže a opatřili je českým kontextem. Cílem příručky není nabídnout kompletní návod, ale spíše úvod do problematiky plný inspirativních příkladů a praktických tipů. Věříme, že bude pro české novináře tím pravým průvodcem na dobrodružnou výpravu krajinou velkých dat.
+Datová žurnalistika, trend světových newsroomů, si do tuzemských redakcí teprve hledá cestu. Abychom tento rychle se rozvíjející fenomén přiblížili českým novinářům i dalším zájemcům, rozhodli jsme se vydat českou verzi [The Data Journalism Handbook][djh]. Z publikace, která je společným dílem desítek novinářů i datových nadšenců z celého světa, jsme vybrali nejpřínosnější pasáže a opatřili je českým kontextem. Příručka, kterou právě čtete, nabízí různorodý pohled na způsoby práce s daty a možnosti jejich využití v novinářské praxi.
 
-*—Michaela Rybičková, Fond Otakara Motejla*
+Jejím cílem není nabídnout kompletní návod, ale spíše úvod do problematiky, inspirativní příklady a praktické tipy. Věříme, že bude tím pravým průvodcem na dobrodružnou výpravu krajinou velkých dat.
+
+*—Michaela Rybičková*
+
+Posláním [Fondu Otakara Motejla][motejl], který spravuje [Nadace Open Society Fund Praha][osf], je rozvoj demokracie a právního státu. Jedním z jejich klíčových předpokladů je právě kvalitní
+a objektivní novinařina, a proto Fond podporuje projekty investigativních reportérů a zaměřuje se na rozvoj datové žurnalistiky a prosazování otevřených dat. Nadace OSF také každoročně vyhlašuje soutěž [Novinářská cena][ncena], oceňující nejlepší práce z české žurnalistiky.
+
+[motejl]: http://motejl.cz
+[osf]: http://www.osf.cz
+[ncena]: http://www.novinarskacena.cz
 
 # Úvod
 
@@ -58,7 +67,7 @@ Japonsko je země, která v digitální žurnalistice doposud zaostávala, což
 
 S hrůzou jsme zjišťovali, že vláda ani odborníci nemají žádná důvěryhodná data o způsobených škodách. Když vláda před veřejností zatajila data ze systému SPEEDI, týkající se rozptylu radioaktivních látek, nebyli jsme je připraveni zpracovat ani v případě, že by je někdo vynesl. Dobrovolníci začali sbírat radioaktivní data pomocí vlastních přístrojů, ale bez znalosti statistiky, interpolace a vizualizace. Novináři musí mít přístup ke zdrojovým datům a musí se naučit nespoléhat na jejich oficiální výklad.
 
-*—Isao Matsunami, Chunichi/Tokyo Shimbun*
+*—Isao Matsunami, Tokyo Shimbun*
 
 ## Data jsou náš život
 
@@ -72,7 +81,7 @@ Novináři nemají čas na to, aby data přepisovali ručně nebo se je snažili
 
 Jeden reportér z novin *Folha de São Paulo* pracoval na článku o městském rozpočtu a volal mi, aby mi poděkoval za městské účty, které jsem dával na web. Pro mě to byly dva dny práce, zatímco on už je prý kvůli článku ručně přepisoval tři měsíce. Podobné to bylo s organizací *Contas Abertas*, která monitoruje dění v parlamentu: řešení jejich „problému s PDF“ mi zabralo 15 minut a 15 řádek kódu, zatímco pro ně představovalo měsíce práce.
 
-*—Pedro Markun, hacker, Transparência*
+*—Pedro Markun, Transparência Hacker*
 
 ## Nezbytná součást výbavy
 
@@ -96,13 +105,13 @@ S novými digitálními technologiemi se ve společnosti objevují nové zdroje 
 
 Z naší digitální stopy se dá rekonstruovat celý náš život. Co čteme, kam a kdy cestujeme, co posloucháme, naše první lásky, první kroky našich dětí, dokonce i naše poslední přání – to všechno se dá sledovat, digitalizovat, ukládat a analyzovat. Z tohoto datového vesmíru si můžeme odnést příběhy, odpovědi a myšlenky, které bychom z osobních svědectví při nejlepší vůli neposkládali.
 
-*—Sarah Slobinová, Wall Street Journal*
+*—Sarah Slobin, Wall Street Journal*
 
 ## Otevřená data pro zpětnou kontrolu
 
 Na web často dáváme kromě vizualizací také data ke stažení. Čtenáři tak mají možnost data prozkoumat pomocí interaktivní vizualizace nebo si je stáhnout a zpracovat podle potřeby sami. Jaký to pro nás má význam? Zvyšuje to průhlednost *Seattle Times*. Předkládáme čtenářům stejná data, ze kterých odvozujeme naše závěry, často zásadní. A kdo té možnosti využívá? Rozhodně naši kritici, a kromě nich všichni, kdo se o příslušný článek hodně zajímají. Publikovaná data fungují i jako zpětná vazba – kritici i běžní čtenáři nás mohou upozornit na něco, co jsme přehlédli, co by šlo dál vytěžit. Pokud chce člověk dělat novinařinu, na které záleží, tohle všechno jsou plusy.
 
-*—Cheryl Phillipsová, Seattle Times*
+*—Cheryl Phillips, Seattle Times*
 
 # Datová gramotnost ve třech krátkých krocích
 
@@ -165,7 +174,7 @@ Výše uvedený titulek vypadá hrozivě. A je naprosto pravdivý. Mezi půl mi
 
 [eurostat]: http://epp.eurostat.ec.europa.eu/portal/page/portal/statistics/search_database
 
-Kdykoliv pracujete s průměrem, ujasněte si, z čeho se počítá. Je referenční populace rozdělená rovnoměrně? Díky nerovnoměrnému rozložení například většina lidí nadprůměrně dobře řídí auto. Mnozí řidiči se celý život obejdou bez nehody, případně bourají jen jednou. Naproti tomu menší počet nezodpovědných řidičů bourá často, čímž tlačí aritmetický průměr nehodovosti mnohem výš, než by běžný řidič ze své zkušenosti čekal. Totéž platí o rozdělení příjmů: většina lidí má podprůměrný plat (a nadprůměrný počet končetin).
+Kdykoliv pracujete s průměrem, ujasněte si, z čeho se počítá. Je referenční populace rozdělená rovnoměrně? Díky nerovnoměrnému rozložení například většina lidí nadprůměrně dobře řídí auto. Mnozí řidiči se celý život obejdou bez nehody, případně bourají jen jednou. Naproti tomu menší počet nezodpovědných řidičů bourá často, čímž tlačí aritmetický průměr nehodovosti mnohem výš, než by běžný řidič ze své zkušenosti čekal. Totéž platí o rozdělení příjmů: většina lidí má podprůměrný plat.
 
 ### Co můžete udělat
 
@@ -179,7 +188,7 @@ Vždy berte v úvahu rozložení ukazatele v běžném vzorku. Zkontrolujte si
 
 [navarra]: http://www.diariodenavarra.es/noticias/mas_actualidad/sociedad/una_encuesta_revela_que_casi_los_espanoles_esta_insatisfecho_con_justicia_50090_1035.html
 
-Ve skutečnosti platí, že při průzkumu velké skupiny lidí (řekněme přes několik tisíc) jen zřídka potřebujete více než tisíc respondentů, abyste dostáhli chyby pod 3 %. Jinými slovy, kdybyste zopakovali průzkum s úplně jiným vzorkem, v devíti případech z deseti byste se dostali nejvýš na tři procenta daleko od výsledků z prvního pokusu. Statistika je mocná zbraň a pokud je nějaká studie špatná, jen výjimečně je to kvůli velikosti vzorku.
+Ve skutečnosti platí, že při průzkumu velké skupiny lidí (řekněme přes několik tisíc) jen zřídka potřebujete více než tisíc respondentů, abyste dostáhli statistické chyby pod 3 %. Jinými slovy, kdybyste zopakovali průzkum s úplně jiným vzorkem, v devíti případech z deseti byste se dostali nejvýš na tři procenta daleko od výsledků z prvního pokusu. Statistika je mocná zbraň a pokud je nějaká studie špatná, jen výjimečně je to kvůli velikosti vzorku.
 
 ### Pití čaje snižuje riziko infarktu
 
@@ -237,9 +246,66 @@ Zvykli jsme si čísla spojovat s autoritou a jistotou. Přitom se ale běžn�
 
 Příběh o vašem pátrání, o postupu od jednoho důkazu ke druhému, může posloužit jako skvělá kostra článku. Dvojnásob to platí v datové žurnalistice, kde si jen zřídka vystačíte s jedním číslem. Nové zdroje přináší nové úhly pohledu, nové nápady, lepší celkový obrázek. Nesnažte se nutně působit jako autorita, která čtenářům naservíruje až hotovou odpověď.
 
+# Přístup k informacím z pohledu uživatele
+ 
+Následující text nemá ambice být univerzálním návodem, jak žádat státní správu o informace. Soudy, které v textu naleznete, lze přičítat jen autorově názoru a zkušenostem, které nemusejí být úplně přenosné. Nutno dodat, že pokud narazíte na osobu, která bude dostatečně autoritativně tvrdit, že v tomto textu je něco špatně, tak má pravděpodobně pravdu.
+ 
+## Infozákon a paní na ústředně
+ 
+V novinářské praxi se jistě dostanete do situace, kdy budete od některé ze státních institucí (soukromých subjektů se to netýká, státních akciovek a s.r.o. ano) požadovat dokument či informaci, kterou nesdílejí sami a dobrovolně. Pokud si v tuhle chvíli vzpomenete na [zákon 106/1999 o svobodném přístupu k informacím][zakon106], je to předčasné.
+ 
+[zakon106]: http://www.zakonyprolidi.cz/cs/1999-106
+ 
+Než sáhnete po úředních postupech, ptejte se. Zní to dost banálně, ale má to svá úskalí. V první řadě se snažte vyhnout tiskovým mluvčím. Nejkvalitnější informace o datech, která se snažíte získat, vám poskytne člověk, který má dataset na starosti. Většina úřadů a institucí má na webu telefonní seznam. Začněte zde a v případě neúspěchu se vyptávejte na telefonní ústředně.
+ 
+I když třeba nedostanete člověka, kterého potřebujete, jistě vám poradí, kdo má v podniku na starosti právě vaše téma. A pak zkuste znovu ústřednu a tak dále. Mimochodem, telefonní operátoři a operátorky na vrátnicích institucí bývají hotový poklad. Většinou jsou na svém místě dost dlouho a mají přehled o chodu své instituce. Kromě znalostí telefonů často ví, čím se kdo zabývá a kdy bude k zastižení.
+ 
+Pravdou je, že se instituce v Česku profesionalizují. V praxi to znamená, že jakmile utrousíte, že jste od novin, odkážou vás na tiskového mluvčího. I tak je dobré mít v předstihu osondováno, kdo má ve správě váš dataset a co obnáší jeho vydání. Můžete pak mluvčímu poskytnout přesné pokyny. Jinak máte slušnou šanci, že se do toho někdo z tiskového oddělení „kreativně“ vloží a celý proces poskytnutí dat zkomplikuje. Zdá se vám to absurdní? Tak například v pražském dopravním podniku o vydání datasetů novinářům rozhoduje oddělení marketingu a PR.
+ 
+V novinářské praxi je takřka kritické získat data dohodou. Pokud dojde na přetahování prostřednictvím paragrafů (což je například zmíněný zákon 106), ocitnete se v zajetí lhůt a odvolacích procedur. Instituce má na vyřízení vašeho požadavku 15 dní (které si ale může dle libovůle až o 10 dní prodloužit).
+ 
+Odvolání proti neposkytnutí informací se může vléct měsíc a ani potom nemusíte svá data získat. Správní žaloba se pak počítá na měsíce až roky.
+ 
+## Zajímejte se
+
+Samozřejmě se běžně stává, že instituce odmítá data poskytnout. Často je za tím neopodstatněná obava z jejich použití, případně nějaký majetnický komplex konkrétního zaměstnance státní správy („my jsme ten dataset vytvořili, tak je náš, nikomu ho nedáme“). Rovněž se dotyčný pracovník může bránit přílivu další práce: „Váš dotaz je položen tak, že vyžaduje předzpracování či vytřídění dat.” V takovém případě se můžete dohodnout na méně náročném řešení.
+ 
+Když se instituce vydání dat brání, pomáhá vysvětlovat a zase vysvětlovat. Prokažte dobrou vůli; pokud je to možné, se správcem dat se sejděte, zkuste ho přesvědčit, že vás projekt za to stojí. Takoví lidé bývají perfektně seznámení s danou problematikou, často si užitečně rozšíříte obzory. Někdy ale sebevětší snaha nepomůže.
+ 
+## Když to jinak nejde
+
+Pokud se instituce „šprajcne“ a vámi požadovaná data prohlásí za tajná, citlivá, interní, neveřejná (doplňte dle libosti), nezbyde než oficiální postup. Žádost podle zákona 106/1999 o svobodném přístupu k informacím musí obsahovat vaše identifikační a kontaktní údaje (stačí jméno, bydliště a datum narození), identifikaci subjektu, který o informace žádáte, a deklaraci, že jde o žádost podle zmíněného zákona 106/1999.
+ 
+Rovněž nezapomeňte co nejjasněji uvést, o co vlastně žádáte. Nezapomeňte, že nemáte nárok na citlivá osobní data, věci kryté obchodním tajemstvím, informace o budoucích rozhodnutích a na data, které instituce nemá k dispozici a musela by je vytvořit (je toho ještě víc, podívejte se na výše uvedený zákon).
+ 
+Pokud se nechcete formalitami zabývat, svěřte se do rukou aplikace [Informace pro všechny](http://infoprovsechny.cz), která vám žádost vygeneruje, odešle a pohlídá termíny. Instituce na vaši žádost musí odpovědět, pokud tak neučiní, můžete si stěžovat.
+ 
+V ideálním případě vaši žádost vyřídí kladně a data dostanete. A když ne…
+ 
+## Bitva paragrafů
+ 
+V případě, že žádosti není vyhověno, můžete se odvolat (ve lhůtě 15 dnů od obdržení rozhodnutí) či si stěžovat (do 30 dnů). Mimochodem, ono „nevyhovění“ má řadu podob: instituce například neodpoví, vaši žádost s nějakým odůvodněním zamítne (i jen částečně), nebo si naúčtuje nesmyslnou částku za vydání dat.
+ 
+Konkrétní situace a jejich řešení naleznete na fóru webu [otevřete.cz][otevrete]. V diskusi zde občas odpovídá i Oldřich Kužílek, autor zákona 106. Než se ale zeptáte, zkuste nejdřív hledat. Rovněž zde naleznete [příručku][otevrete-prirucka] a novinky z oblasti přístupu k informacím, judikatura se v této oblasti stále vyvíjí. V zásadě ale platí, že pokud instituce vaši žádost zamítne, odvoláváte se. V ostatních případech (neodpoví, nastaví nesmyslnou cenu, popírá vlastnictví dat) si stěžujete.
+
+[otevrete]: http://forum.otevrete.cz
+[otevrete-prirucka]: http://www.otevrete.cz/ucast-obcanu-na-rozhodovani/publikace-dalsich-106-odpovedi-na-vase-dotazy-oldrich-kuzilek-44.html
+ 
+Stížnost i odvolání musí obsahovat identifikaci rozhodnutí, které napadáte; stačí jednací číslo. V případě nečinnosti instituce odkazujete na předchozí žádost. Hezký diagram toho, jak žádost a další kroky probíhají, [naleznete na webu otevřete.cz][otevrete-diagram].
+
+[otevrete-diagram]: http://www.otevrete.cz/zadosti-o-informace/zadatel/vyvojovy-diagram-vyrizeni-zadosti-o-informace-149.html
+ 
+U stížností napadáte procesní správnost rozhodnutí (dodržení termínů, formální nedostatky odpovědi atd.) či přiměřenost poplatků. Odvolání napadá konkrétní důvody zamítnutí žádosti; zde je vhodné zapátrat v judikatuře k podobným případům a jimi argumentovat. A ano, tušíte správně, i dřívější rozsudky jsou k dispozici na webu otevřete.cz.
+ 
+O stížnosti či odvolání rozhoduje nadřízený orgán subjektu, od kterého data žádáte (například u pražské městské části je to magistrát). Ten může dřívější rozhodnutí zrušit a nebo potvrdit. V případě zrušení se žádost vrací k subjektu, od kterého žádáte a rozhoduje se o ní znovu. Pravdou je, že instituce může tutéž žádost i napodruhé zamítnout a může tak učinit po každém dalším odvolání (které sice vyhrajete, ale data stále nemáte). A pozor, pokud subjekt nadřízený orgán nemá, rozhoduje o vašem odvolání sám.
+ 
+Po vyčerpání opravných prostředků (odvolání či stížnost) se pak můžete obrátit na soud a podat správní žalobu. Zde už vás musí zastupovat advokát a na rozhodnutí můžete čekat několik měsíců nebo i let. Tomáš Němeček z Lidových novin takto například vymohl výsledky státních maturit. Pravdou nicméně je, že shánět data k aktuálním tématům skrze soudní spory není moc reálné.
+
+*—Jan Cibulka*
+
 # Extrakce dat z webu
 
-Ideální je, když se vám data podaří na webu najít v nějakém přímo zpracovatelném formátu, například jako excelovskou tabulku nebo ve formátu CSV. Občas se ale stane, že data na webu najdete, ale nejsou ke stažení v rozumném formátu a obyčejné kopírování přes schránku nepřipadá v úvahu nebo nefunguje. Nemusíte propadat panice, ještě existuje několik možností:
+Ideální je, když se vám data podaří na webu najít v nějakém přímo zpracovatelném formátu, například jako excelovou tabulku nebo ve formátu CSV. Občas se ale stane, že data na webu najdete, ale nejsou ke stažení v rozumném formátu a obyčejné kopírování přes schránku nepřipadá v úvahu nebo nefunguje. Nemusíte propadat panice, ještě existuje několik možností:
 
 * Stahování dat prostřednictvím API. Moderní webové služby, například online databáze a sociální sítě (včetně Twitteru, Facebooku a dalších) dnes kromě běžného uživatelského rozhraní často nabízí také API neboli *application programming interface*, rozhraní určené strojům. To je fantastický způsob, jak se dostat k vládním i komerčním datům, včetně informací ze sociálních médií.
 
@@ -251,7 +317,7 @@ Přes všechny pěkné technické varianty nezapomínejte na jednoduchá řešen
 
 ## Co jsou strojově čitelná data
 
-Když hledáte data pro další zpracování, vaším cílem jsou většinou *strojově čitelná* data. Což znamená data uložená s ohledem na další automatické zpracování počítačem, nikoliv prezentaci lidem; data strukturovaná podle logiky uložených informací, nikoliv podle budoucího zobrazení. Mezi strojově snadno čitelné formáty patří například CSV, XML, JSON nebo excelovské tabulky. Naopak dokumenty z textových procesorů (Word a podobně), soubory ve formátu PDF a do jisté míry také HTML soubory se zabývají spíše vizuálním rozložením informací. Zejména formát PDF byl původně určen pro komunikaci s tiskárnou, takže pracuje spíše s umístěním jednotlivých čar a teček na stránce, nikoliv s vyššími celky jako písmeny, slovy, odstavci, tabulkami a podobně.
+Když hledáte data pro další zpracování, vaším cílem jsou většinou *strojově čitelná* data. Což znamená data uložená s ohledem na další automatické zpracování počítačem, nikoliv prezentaci lidem; data strukturovaná podle logiky uložených informací, nikoliv podle budoucího zobrazení. Mezi strojově snadno čitelné formáty patří například CSV, XML, JSON nebo excelové tabulky. Naopak dokumenty z textových procesorů (Word a podobně), soubory ve formátu PDF a do jisté míry také HTML soubory se zabývají spíše vizuálním rozložením informací. Zejména formát PDF byl původně určen pro komunikaci s tiskárnou, takže pracuje spíše s umístěním jednotlivých čar a teček na stránce, nikoliv s vyššími celky jako písmeny, slovy, odstavci, tabulkami a podobně.
 
 ## K čemu je scrapování
 
@@ -271,15 +337,15 @@ Velká výhoda scrapování je v tom, že se dá použít prakticky u jakéhok
 
 [CAPTCHA]: http://cs.wikipedia.org/wiki/CAPTCHA
 
-Problematická může být i právní stránka věci; právní systém některých zemí omezuje možnosti nakládat s daty publikovanými online. Jako novinář v tomto ohledu můžete a nemusíte mít zvláštní práva. Scraping veřejně dostupných vládních dat by měl být bezproblémový, jen se dvakrát ujistěte, než data budete publikovat. Komerční organizace a některé neziskovky bývají méně tolerantní a protože scraping může nadměrně zatěžovat jejich server, v krajním případě ho mohou vnímat jako [DoS útok][DOS]. Stažené informace se také mohou týkat soukromí osob, takže byste mohli mít problémy se zákony na ochranu osobních údajů nebo profesními etickými kodexy.
+Problematická může být i právní stránka věci; právní systém některých zemí omezuje možnosti nakládat s daty publikovanými online. Jako novinář v tomto ohledu můžete a nemusíte mít zvláštní práva. Scraping veřejně dostupných vládních dat by měl být bezproblémový, jen se dvakrát ujistěte, než data budete publikovat. Komerční organizace a některé neziskovky bývají méně tolerantní a protože scraping může nadměrně zatěžovat jejich server, v krajním případě ho mohou vnímat jako [DDoS útok][DOS]. Stažené informace se také mohou týkat soukromí osob, takže byste mohli mít problémy se zákony na ochranu osobních údajů nebo profesními etickými kodexy.
 
 [DOS]: http://cs.wikipedia.org/wiki/Denial_of_service
 
 ## Scrapovací nástroje
 
-Programů, které se dají použít pro extrakci informací z webových stránek, existuje široké spektrum, od webových služeb po rozšíření webového prohlížeče. Služba [Readability] vám například pomůže vytáhnout z webové stránky čistý text, rozšíření [DownThemAll] pro Firefox usnadňuje stahování většího počtu souborů a rozšíření [Scraper] pro Google Chrome je přímo stavěné na kopírování tabulek z webových stránek.
+Programů, které se dají použít pro extrakci informací z webových stránek, existuje široké spektrum, od online služeb po rozšíření webového prohlížeče. Služba [Readability] vám například pomůže vytáhnout z webové stránky čistý text, rozšíření [DownThemAll] pro Firefox usnadňuje stahování většího počtu souborů a rozšíření [Scraper] pro Google Chrome je přímo stavěné na kopírování tabulek z webových stránek.
 
-Praktické jsou také funkce prohlížečů určené webovým vývojářům. Díky nim se můžete podívat, jak je stránka strukturovaná a co si váš prohlížeč povídá se serverem na druhé straně. Google Chrome, Safari a Internet Explorer mají vývojářské nástroje vestavěné, pro Firefox si můžete stáhnout rozšíření [FireBug].
+Praktické jsou také funkce prohlížečů určené vývojářům. Díky nim se můžete podívat, jak je stránka strukturovaná a co si váš prohlížeč povídá se serverem na druhé straně. Google Chrome, Safari a Internet Explorer mají vývojářské nástroje vestavěné, pro Firefox si můžete stáhnout rozšíření [FireBug].
 
 Přímo na scraping se specializuje server [ScraperWiki], kde si můžete snadno napsat scraper v Pythonu, Ruby nebo PHP. Je to ideální způsob, jak začít se scrapováním, aniž byste se museli mořit s instalací vývojářských nástrojů na svůj vlastní počítač. Scrapování do určité míry podporují i další rozšířené webové služby, například Google Documents nebo Yahoo! Pipes.
 
@@ -313,7 +379,7 @@ Při prohledávání obsahu konkrétní domény je nepostradatelným nástrojem 
 
 ## Google Cache
 
-Kontroverzní stránky může jejich autor bez upozornění stáhnout nebo změnit. Pokud se potřebujete dostat k původnímu znění, můžete jako první instanci zkusit kešovanou verzi, jak si ji při posledním indexování zapamatoval Google. Vyhledávač si vždy pamatuje pouze poslední verzi, takže musíte jednat rychle, než se přepíše tou aktuální. Zadejte do Googlu jako vyhledávací dotaz URL stránky a když se vám objeví ve výsledcích, najděte si u ní odkaz na kešovanou verzi (anglicky *cached*, česká verze používá označení *archiv*). Pokud uspějete, udělejte si snímek obrazovky nebo zkopírujte relevantní část obsahu; keš může být každým okamžikem aktualizována na současnou verzi stránky.
+Kontroverzní stránky může jejich autor bez upozornění stáhnout nebo změnit. Pokud se potřebujete dostat k původnímu znění, můžete jako první instanci zkusit cacheovanou verzi, jak si ji při posledním indexování zapamatoval Google. Vyhledávač si vždy pamatuje pouze poslední verzi, takže musíte jednat rychle, než se přepíše tou aktuální. Zadejte do Googlu jako vyhledávací dotaz URL stránky a když se vám objeví ve výsledcích, najděte si u ní odkaz na cacheovanou verzi (anglicky *cached*, česká verze používá označení *archiv*). Pokud uspějete, udělejte si snímek obrazovky nebo zkopírujte relevantní část obsahu; cache může být každým okamžikem aktualizována na současnou verzi stránky.
 
 ## Webový archiv
 
@@ -435,7 +501,7 @@ A nezapomínejte na tabulky. Když máte několik málo čísel, která by ovše
 
 # Datová žurnalistika v Česku
 
-Zatímco předchozí kapitoly vycházely především z anglického originálu a prostředí, ta následující vám zprostředkuje zkušenosti z datové žurnalistiky v České republice, jak ji vidí členové datového týmu [IHNED.cz](http://ihned.cz).
+Zatímco předchozí kapitoly vycházely většinou z anglického originálu a prostředí, ta následující vám zprostředkuje zkušenosti s datovou žurnalistikou v českém prostředí, jak ji vidí členové datového týmu [IHNED.cz](http://ihned.cz).
 
 ## Data v novinách: popis jednoho zápasu
 
@@ -478,8 +544,6 @@ Jenomže dva neprogramátoři, kteří se učí programovat za pochodu v redakc
 
 Někdy v této fázi, v březnu 2013, nabrala naše cesta k jádru datové žurnalistiky nový, radostnější směr. Nejprve k nám přibyl třetí do party, mladý a nadšený datový novinář Honza Cibulka. A pak začalo v redakci pod vedením Martina Malého samostatné oddělení redakčních vývojářů. Kód, který jsme sami smolili několik týdnů, dokáže ostřílený programátor napsat za odpoledne, a na nás je, abychom skutečně hledali v datech témata a vymýšleli, jak je nejlépe odvyprávět. Místo technických problémů se můžeme víc soustředit na to žurnalistické: dolujeme z úřadů citlivá data (často přes zákon 106 o svobodném přístupu k informacím), víc o tématech mluvíme s redakcí, víc se snažíme v aplikaci „mluvit“ se čtenářem.
 
-![Část datového týmu IHNED přebírá Cenu Googlu za inovativní profesionální online žurnalistiku za rok 2013 (autor: Richard Rameš)](figures/ihned.jpg)
-
 V naší práci přibyl jeden krok – kritické zkoumání už hotových aplikací a jejich ladění. (Tady se sluší poděkovat našemu největšímu kritikovi, Josefu Šlerkovi – kdykoliv máme pocit, že na aplikaci už není žádná práce, objeví se podvědomý kritik, „vnitřní Šlerka“, a vysvětlí nám, že to máme celé předělat.)
 
 Doplnili jsme také svou definici datové žurnalistiky. Často jsme pomocí dat pouze „ilustrovali“ články jiných redaktorů. Obvykle potřebovali zaplnit chybějící místo mapou, vložit do článku tabulku nebo vytvořit graf. Tohle je práce, kterou se musí naučit sami redaktoři. „Opravdová“ datová žurnalistika by měla sloužit spíš investigaci než ilustraci; spíš objevování nových skutečností a provázaností, než jen popisování toho, co se „tak nějak ví“.
@@ -488,66 +552,7 @@ Datová žurnalistika jako žánr časem zmizí. Stejně jako neexistuje „magn
 
 *—Jan Boček a Petr Kočí*
 
-## Přístup k informacím z pohledu uživatele
- 
-Následující text nemá ambice být univerzálním návodem, jak žádat státní správu o informace. Soudy, které v textu naleznete, lze přičítat jen autorově názoru a zkušenostem, které nemusejí být úplně přenosné. Nutno dodat, že pokud narazíte na osobu, která bude dostatečně autoritativně tvrdit, že v tomto textu je něco špatně, tak má pravděpodobně pravdu.
- 
-### Infozákon a paní na ústředně
- 
-V novinářské praxi se jistě dostanete do situace, kdy budete od některé ze státních institucí (soukromých subjektů se to netýká, státních akciovek a s.r.o. ano) požadovat dokument či informaci, kterou nesdílejí sami a dobrovolně. Pokud si v tuhle chvíli vzpomenete na [zákon 106/1999 o svobodném přístupu k informacím][zakon106], je to předčasné.
- 
-[zakon106]: http://www.zakonyprolidi.cz/cs/1999-106
- 
-Než sáhnete po úředních postupech, ptejte se. Zní to dost banálně, ale má to svá úskalí. V první řadě se snažte vyhnout tiskovým mluvčím. Nejkvalitnější informace o datech, která se snažíte získat, vám poskytne člověk, který má dataset na starosti. Většina úřadů a institucí má na webu telefonní seznam. Začněte zde a v případě neúspěchu se vyptávejte na telefonní ústředně.
- 
-I když třeba nedostanete člověka, kterého potřebujete, jistě vám poradí, kdo má v podniku na starosti právě vaše téma. A pak zkuste znovu ústřednu a tak dále. Mimochodem, telefonní operátoři a operátorky na vrátnicích institucí bývají hotový poklad. Většinou jsou na svém místě dost dlouho a mají přehled o chodu své instituce. Kromě znalostí telefonů často ví, čím se kdo zabývá a kdy bude k zastižení.
- 
-Pravdou je, že se instituce v Česku profesionalizují. V praxi to znamená, že jakmile utrousíte, že jste od novin, odkážou vás na tiskového mluvčího. I tak je dobré mít v předstihu osondováno, kdo má ve správě váš dataset a co obnáší jeho vydání. Můžete pak mluvčímu poskytnout přesné pokyny. Jinak máte slušnou šanci, že se do toho někdo z tiskového oddělení „kreativně“ vloží a celý proces poskytnutí dat zkomplikuje. Zdá se vám to absurdní? Tak například v pražském dopravním podniku o vydání datasetů novinářům rozhoduje oddělení marketingu a PR.
- 
-V novinářské praxi je takřka kritické získat data dohodou. Pokud dojde na přetahování prostřednictvím paragrafů (což je například zmíněný zákon 106), ocitnete se v zajetí lhůt a odvolacích procedur. Instituce má na vyřízení vašeho požadavku 15 dní (které si ale může dle libovůle až o 10 dní prodloužit).
- 
-Odvolání proti neposkytnutí informací se může vléct měsíc a ani potom nemusíte svá data získat. Správní žaloba se pak počítá na měsíce až jednotky let.
- 
-### Zajímejte se
-
-Samozřejmě se běžně stává, že instituce odmítá data poskytnout. Často je za tím neopodstatněná obava z jejich použití, případně nějaký majetnický komplex konkrétního zaměstnance státní správy („my jsme ten dataset vytvořili, tak je náš, nikomu ho nedáme“). Rovněž se dotyčný pracovník může bránit přílivu další práce: „Váš dotaz je položen tak, že vyžaduje předzpracování či vytřídění dat.” V takovém případě se můžete dohodnout na méně náročném řešení.
- 
-Když se instituce vydání dat brání, pomáhá vysvětlovat a zase vysvětlovat. Prokažte dobrou vůli; pokud je to možné, se správcem dat se sejděte, zkuste ho přesvědčit, že vás projekt za to stojí. Takoví lidé bývají perfektně seznámení s danou problematikou, často si užitečně rozšíříte obzory. Někdy ale sebevětší snaha nepomůže.
- 
-### Když to jinak nejde
-
-Pokud se instituce „šprajcne“ a vámi požadovaná data prohlásí za tajná, citlivá, interní, neveřejná (doplňte dle libosti), nezbyde než oficiální postup. Žádost podle zákona 106/1999 o svobodném přístupu k informacím musí obsahovat vaše identifikační a kontaktní údaje (stačí jméno, bydliště a datum narození), identifikaci subjektu, který o informace žádáte, a deklaraci, že jde o žádost podle zmíněného zákona 106/1999.
- 
-Rovněž nezapomeňte co nejjasněji uvést, o co vlastně žádáte. Nezapomeňte, že nemáte nárok na citlivá osobní data, věci kryté obchodním tajemstvím, informace o budoucích rozhodnutích a na data, které instituce nemá k dispozici a musela by je vytvořit (je toho ještě víc, podívejte se na výše uvedený zákon).
- 
-Pokud se nechcete formalitami zabývat, svěřte se do rukou [generátoru žádostí](http://infoprovsechny.cz), který vám žádost vygeneruje, odešle a pohlídá termíny. Instituce na vaši žádost musí odpovědět, pokud tak neučiní, můžete si stěžovat.
- 
-V ideálním případě vaši žádost vyřídí kladně a data dostanete. A když ne…
- 
-### Bitva paragrafů
- 
-V případě, že žádosti není vyhověno, můžete se odvolat (ve lhůtě 15 dnů od obdržení rozhodnutí) či si stěžovat (do 30 dnů). Mimochodem, ono „nevyhovění“ má řadu podob: instituce například neodpoví, vaši žádost s nějakým odůvodněním zamítne (i jen částečně), nebo si naúčtuje nesmyslnou částku za vydání dat.
- 
-Konkrétní situace a jejich řešení naleznete na fóru webu [otevřete.cz][otevrete]. V diskusi zde občas odpovídá i Oldřich Kužílek, autor zákona 106. Než se ale zeptáte, zkuste nejdřív hledat. Rovněž zde naleznete [příručku][otevrete-prirucka] a novinky z oblasti přístupu k informacím, judikatura se v této oblasti stále vyvíjí. V zásadě ale platí, že pokud instituce vaši žádost zamítne, odvoláváte se. V ostatních případech (neodpoví, nastaví nesmyslnou cenu, popírá vlastnictví dat) si stěžujete.
-
-[otevrete]: http://forum.otevrete.cz
-[otevrete-prirucka]: http://www.otevrete.cz/ucast-obcanu-na-rozhodovani/publikace-dalsich-106-odpovedi-na-vase-dotazy-oldrich-kuzilek-44.html
- 
-Stížnost i odvolání musí obsahovat identifikaci rozhodnutí, které napadáte; stačí jednací číslo. V případě nečinnosti instituce odkazujete na předchozí žádost. Hezký diagram toho, jak žádost a další kroky probíhají, [naleznete na webu otevřete.cz][otevrete-diagram].
-
-[otevrete-diagram]: http://www.otevrete.cz/zadosti-o-informace/zadatel/vyvojovy-diagram-vyrizeni-zadosti-o-informace-149.html
- 
-U stížností napadáte procesní správnost rozhodnutí (dodržení termínů, formální nedostatky odpovědi atd.) či přiměřenost poplatků. Odvolání napadá konkrétní důvody zamítnutí žádosti; zde je vhodné zapátrat v judikatuře k podobným případům a jimi argumentovat. A ano, tušíte správně, i dřívější rozsudky jsou k dispozici na webu otevřete.cz.
- 
-O stížnosti či odvolání rozhoduje nadřízený orgán subjektu, od kterého data žádáte (například u pražské městské části je to magistrát). Ten může dřívější rozhodnutí zrušit a nebo potvrdit. V případě zrušení se žádost vrací k subjektu, od kterého žádáte a rozhoduje se o ní znovu. Pravdou je, že instituce může tutéž žádost i napodruhé zamítnout a může tak učinit po každém dalším odvolání (které sice vyhrajete, ale data stále nemáte). A pozor, pokud subjekt nadřízený orgán nemá, rozhoduje o vašem odvolání sám.
- 
-Po vyčerpání opravných prostředků (odvolání či stížnost) se pak můžete obrátit na soud a podat správní žalobu. Zde už vás musí zastupovat advokát a na rozhodnutí můžete čekat několik měsíců nebo i let. Tomáš Němeček z Lidových novin takto například vymohl výsledky státních maturit. Pravdou nicméně je, že shánět data k aktuálním tématům skrze soudní spory není moc reálné.
-
-*—Jan Cibulka*
-
-## Doporučené nástroje a zdroje
-
-### Nástroje
+# Doporučené nástroje
 
 * [Open Refine](http://openrefine.org/), open source aplikace pro čištění a strukturování dat.
 
@@ -557,7 +562,7 @@ Po vyčerpání opravných prostředků (odvolání či stížnost) se pak můž
 
 * [Datawrapper](http://datawrapper.de/), open source nástroj pro tvorbu jednoduchých grafů.
 
-### Zdroje
+# Doporučené zdroje
 
 * [Data Journalism Handbook](http://datajournalismhandbook.org/), zhruba dvousetstránková původní verze příručky datové žurnalistiky, na které je tato publikace postavena. Webová verze je k dispozici zdarma.
 
@@ -575,11 +580,12 @@ Po vyčerpání opravných prostředků (odvolání či stížnost) se pak můž
 
 # Tiráž
 
-Základem tohoto textu byla publikace [Data Journalism Handbook][djh], kterou přeložil, zkrátil, opět rozšířil a upravil [Tomáš Znamenáček][tz] díky příspěvku od [Fondu Otakara Motejla][fom].
+Základem tohoto textu byla publikace [Data Journalism Handbook][djh], která byla přeložena, zkrácena a doplněna autorskými texty z českého prostředí.
+
+*Překlad a editace:* Tomáš Znamenáček  
+*Autorské texty:* Jan Boček, Jan Cibulka, Petr Kočí, Michaela Rybičková
 
 Text je zveřejněn pod licencí [Creative Commons Attribution+ShareAlike][cc], což stručně řečeno znamená, že jej můžete libovolně šířit a dál na něm stavět, pokud uvedete odkaz na zdroj a výsledky své práce zveřejníte pod podobnou licencí. Zdrojový text publikace je na [GitHubu][github].
-
-PDF verze je vysázena písmem [Skolar] Davida Březiny.
 
 [djh]: http://datajournalismhandbook.org/
 [tz]: http://zmotula.cz/
