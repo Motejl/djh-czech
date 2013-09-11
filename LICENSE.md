@@ -2,6 +2,6 @@ The Data Journalism Handbook is licensed under [Creative Commons Attribution-Sha
 
 ---
 
-Český text je zveřejněn pod licencí [Creative Commons Attribution+ShareAlike][cc], což stručně řečeno znamená, že jej můžete libovolně šířit a dál na něm stavět, pokud uvedete odkaz na zdroj a výsledky své práce zveřejníte pod podobnou licencí. Podrobnosti najdete v plném textu licence.
+Český text je zveřejněn pod licencí [Creative Commons Attribution-ShareAlike][cc], což stručně řečeno znamená, že jej můžete libovolně šířit a dál na něm stavět, pokud uvedete odkaz na zdroj a výsledky své práce zveřejníte pod podobnou licencí. Podrobnosti najdete v plném textu licence.
 
 [cc]: http://creativecommons.org/licenses/by-sa/3.0/
